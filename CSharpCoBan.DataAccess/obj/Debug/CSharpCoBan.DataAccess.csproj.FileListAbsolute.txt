@@ -1,0 +1,9 @@
+C:\Users\Admin\Source\Repos\csharpcoban\CSharpCoBan.DataAccess\bin\Debug\CSharpCoBan.DataAccess.dll
+C:\Users\Admin\Source\Repos\csharpcoban\CSharpCoBan.DataAccess\bin\Debug\CSharpCoBan.DataAccess.pdb
+C:\Users\Admin\Source\Repos\csharpcoban\CSharpCoBan.DataAccess\bin\Debug\CSharpCoban.Common.dll
+C:\Users\Admin\Source\Repos\csharpcoban\CSharpCoBan.DataAccess\bin\Debug\CSharpCoban.Common.pdb
+C:\Users\Admin\Source\Repos\csharpcoban\CSharpCoBan.DataAccess\obj\Debug\CSharpCoBan.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Admin\Source\Repos\csharpcoban\CSharpCoBan.DataAccess\obj\Debug\CSharpCoBan.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Source\Repos\csharpcoban\CSharpCoBan.DataAccess\obj\Debug\CSharpCo.A94C10B1.Up2Date
+C:\Users\Admin\Source\Repos\csharpcoban\CSharpCoBan.DataAccess\obj\Debug\CSharpCoBan.DataAccess.dll
+C:\Users\Admin\Source\Repos\csharpcoban\CSharpCoBan.DataAccess\obj\Debug\CSharpCoBan.DataAccess.pdb
