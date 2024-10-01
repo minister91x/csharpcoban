@@ -20,19 +20,21 @@ namespace CSharpCoBan.DataAccess
             var validate = new CSharpCoban.Common.Validate();
             try
             {
+                // kiểm tra số thứ nhất hợp lệ không 
                 var isvalidFirstNumber = validate.ValidateInputData(sothunhat);
                 if (isvalidFirstNumber == false)
                 {
                     return -1;
                 }
 
+                // kiểm tra số thứ hai hợp lệ không 
                 var isvalidSecondNumber = validate.ValidateInputData(sothu2);
                 if (isvalidSecondNumber == false)
                 {
                     return -2;
                 }
 
-
+                // Thực hiện tính tổng 
                 return Convert.ToInt32(sothunhat) + Convert.ToInt32(sothu2);
 
             }
@@ -40,7 +42,7 @@ namespace CSharpCoBan.DataAccess
             {
 
                 throw ex;
-               
+
             }
         }
 
@@ -54,7 +56,7 @@ namespace CSharpCoBan.DataAccess
             so = 1500;
         }
 
-        public  void UserInput(string s)
+        public void UserInput(string s)
         {
             if (s.Length > 2)
             {

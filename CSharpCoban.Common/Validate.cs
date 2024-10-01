@@ -11,15 +11,10 @@ namespace CSharpCoban.Common
         public bool ValidateInputData(string inputData)
         {
             if (string.IsNullOrEmpty(inputData)) return false;
-
-            //int n = 0;
-            //var isnumber = int.TryParse(inputData, out n);
-
-            //if (!isnumber) return false;
+            if (!int.TryParse(inputData, out int value)) return false;
+            if(int.MaxValue >= value) return false;
             return true;
 
-
-            // CTRL+ K + D để fomat code 
         }
     }
 }

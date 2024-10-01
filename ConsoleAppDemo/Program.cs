@@ -10,17 +10,24 @@ namespace ConsoleAppDemo
     {
         static void Main(string[] args)
         {
+
+            // Bước 1: Nhập 2 số 
+            
+            // Bước 2 kiểm tra 
+            // - không được trống 
+            // - không phải text ( abc , < , !@...vvv)
+            // - số không được vượt quá kích thước kiểu int 
+            // Bước 3: Tính tổng 
+
             Console.InputEncoding = Encoding.UTF8;
             Console.OutputEncoding = Encoding.UTF8;
             Console.WriteLine("số thứ nhất :");
             var so1 = Console.ReadLine();
 
+            // chờ chú tý nhé 
             Console.WriteLine("số thứ hai:");
             var so2 = Console.ReadLine();
-            // & -> ref/out 
             var function_tinh = new CSharpCoBan.DataAccess.Function();
-
-            function_tinh.UserInput(so1);
 
             var tong = function_tinh.TinhTong(so1, so2);
 
@@ -41,6 +48,10 @@ namespace ConsoleAppDemo
 
                 }
             }
+
+            Console.WriteLine("Tổng hai số là: {0}", tong);
+
+
 
             int number = 15;
             Console.WriteLine("number first: {0}", number);
