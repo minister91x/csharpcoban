@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{41FF2842-8BB8-432B-A9FF-A2C42AF7BAD9}|ConsoleAppDemo\\ConsoleAppDemo.csproj|c:\\users\\admin\\source\\repos\\csharpcoban\\consoleappdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41FF2842-8BB8-432B-A9FF-A2C42AF7BAD9}|ConsoleAppDemo\\ConsoleAppDemo.csproj|solutionrelative:consoleappdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9D95584C-EF03-45E8-89C8-FDDF73218485}|CSharpCoBan.DataAccess\\CSharpCoBan.DataAccess.csproj|c:\\users\\admin\\source\\repos\\csharpcoban\\csharpcoban.dataaccess\\employeermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D95584C-EF03-45E8-89C8-FDDF73218485}|CSharpCoBan.DataAccess\\CSharpCoBan.DataAccess.csproj|solutionrelative:csharpcoban.dataaccess\\employeermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{75977B23-07FE-4403-AFDE-B07522F69405}|CSharpCoban.Common\\CSharpCoban.Common.csproj|C:\\Users\\Admin\\source\\repos\\csharpcoban\\csharpcoban.common\\validate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{75977B23-07FE-4403-AFDE-B07522F69405}|CSharpCoban.Common\\CSharpCoban.Common.csproj|solutionrelative:csharpcoban.common\\validate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{41FF2842-8BB8-432B-A9FF-A2C42AF7BAD9}|ConsoleAppDemo\\ConsoleAppDemo.csproj|c:\\users\\admin\\source\\repos\\csharpcoban\\consoleappdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41FF2842-8BB8-432B-A9FF-A2C42AF7BAD9}|ConsoleAppDemo\\ConsoleAppDemo.csproj|solutionrelative:consoleappdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9D95584C-EF03-45E8-89C8-FDDF73218485}|CSharpCoBan.DataAccess\\CSharpCoBan.DataAccess.csproj|C:\\Users\\Admin\\source\\repos\\csharpcoban\\csharpcoban.dataaccess\\function.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D95584C-EF03-45E8-89C8-FDDF73218485}|CSharpCoBan.DataAccess\\CSharpCoBan.DataAccess.csproj|solutionrelative:csharpcoban.dataaccess\\function.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D95584C-EF03-45E8-89C8-FDDF73218485}|CSharpCoBan.DataAccess\\CSharpCoBan.DataAccess.csproj|c:\\users\\admin\\source\\repos\\csharpcoban\\csharpcoban.dataaccess\\struct\\employeer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D95584C-EF03-45E8-89C8-FDDF73218485}|CSharpCoBan.DataAccess\\CSharpCoBan.DataAccess.csproj|solutionrelative:csharpcoban.dataaccess\\struct\\employeer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,27 +43,54 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "EmployeerManager.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoBan.DataAccess\\EmployeerManager.cs",
+              "RelativeDocumentMoniker": "CSharpCoBan.DataAccess\\EmployeerManager.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoBan.DataAccess\\EmployeerManager.cs",
+              "RelativeToolTip": "CSharpCoBan.DataAccess\\EmployeerManager.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA1wBcAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T14:14:20.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Employeer.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoBan.DataAccess\\STRUCT\\Employeer.cs",
+              "RelativeDocumentMoniker": "CSharpCoBan.DataAccess\\STRUCT\\Employeer.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoBan.DataAccess\\STRUCT\\Employeer.cs",
+              "RelativeToolTip": "CSharpCoBan.DataAccess\\STRUCT\\Employeer.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwA4AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T14:12:11.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\ConsoleAppDemo\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleAppDemo\\Program.cs",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\ConsoleAppDemo\\Program.cs",
               "RelativeToolTip": "ConsoleAppDemo\\Program.cs",
-              "ViewState": "AgIAAGsAAAAAAAAAAAAuwHoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAHEAAAAAAAAAAADwv4QAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-01T13:43:54.73Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Function.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoBan.DataAccess\\Function.cs",
               "RelativeDocumentMoniker": "CSharpCoBan.DataAccess\\Function.cs",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoBan.DataAccess\\Function.cs",
               "RelativeToolTip": "CSharpCoBan.DataAccess\\Function.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAgwCUAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAABEAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T13:42:32.022Z"
+              "WhenOpened": "2024-10-01T13:42:32.022Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -65,9 +100,10 @@
               "RelativeDocumentMoniker": "CSharpCoban.Common\\Validate.cs",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoban.Common\\Validate.cs",
               "RelativeToolTip": "CSharpCoban.Common\\Validate.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAgwCcAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T13:42:22.312Z"
+              "WhenOpened": "2024-10-01T13:42:22.312Z",
+              "EditorCaption": ""
             }
           ]
         }

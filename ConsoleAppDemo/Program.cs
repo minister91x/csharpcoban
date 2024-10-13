@@ -109,23 +109,35 @@ namespace ConsoleAppDemo
 
 
 
-            var car2 = new MyCar(1, "Xe bus");
-            Console.WriteLine("id car1 :{0}", car2.id);
-            Console.WriteLine("name car1 :{0}", car2.name);
-
-
-            var car = new MyCar();
             Console.WriteLine("mời nhập id:");
-            int id = Convert.ToInt32(Console.ReadLine());
+            var id = Console.ReadLine();
 
             Console.WriteLine("mời nhập tên:");
             var name = Console.ReadLine();
 
-            var mycarInitial = GetMyCarInfor(id, name);
+            Console.WriteLine("mời nhập ngày sinh:");
+            var ngaysinh = Console.ReadLine();
 
-            Console.WriteLine("id car2 :{0}", mycarInitial.id);
-            Console.WriteLine("name car2 :{0}", mycarInitial.Description());
+            Console.WriteLine("mời nhập ngày vào làm");
+            var ngayvaolam = Console.ReadLine();
 
+            Console.WriteLine("mời nhập hệ số");
+            var heso = Console.ReadLine();
+
+            var employeerManager = new CSharpCoBan.DataAccess.EmployeerManager();
+            var ketqua = employeerManager.Employeer_Insert(id, name, ngaysinh, ngayvaolam, heso);
+
+            var list = employeerManager.Employeer_GetList();
+            if (list.Count > 0)
+            {
+                foreach (var item in list)
+                {
+                    Console.WriteLine("id: {0} \t ",item.ID);
+                    Console.WriteLine("Name: {0} \t ", item.HoVaTen);
+                }
+            }
+            Console.WriteLine("ketqua :{0}", ketqua);
+            
             Console.ReadKey();
         }
     }

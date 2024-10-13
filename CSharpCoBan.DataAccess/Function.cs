@@ -17,18 +17,18 @@ namespace CSharpCoBan.DataAccess
         /// <returns></returns>
         public int TinhTong(string sothunhat, string sothu2)
         {
-            var validate = new CSharpCoban.Common.Validate();
+          
             try
             {
                 // kiểm tra số thứ nhất hợp lệ không 
-                var isvalidFirstNumber = validate.ValidateInputData(sothunhat);
+                var isvalidFirstNumber = CSharpCoban.Common.Validate.CheckNumber(sothunhat);
                 if (isvalidFirstNumber == false)
                 {
                     return -1;
                 }
 
                 // kiểm tra số thứ hai hợp lệ không 
-                var isvalidSecondNumber = validate.ValidateInputData(sothu2);
+                var isvalidSecondNumber = CSharpCoban.Common.Validate.CheckNumber(sothu2);
                 if (isvalidSecondNumber == false)
                 {
                     return -2;
