@@ -10,3 +10,15 @@ C:\Users\Admin\Source\Repos\csharpcoban\ConsoleAppDemo\bin\Debug\CSharpCoban.Com
 C:\Users\Admin\Source\Repos\csharpcoban\ConsoleAppDemo\bin\Debug\CSharpCoBan.DataAccess.pdb
 C:\Users\Admin\Source\Repos\csharpcoban\ConsoleAppDemo\bin\Debug\CSharpCoban.Common.pdb
 C:\Users\Admin\Source\Repos\csharpcoban\ConsoleAppDemo\obj\Debug\ConsoleA.B1D79DA7.Up2Date
+D:\SourceCode\repos\csharpcoban\ConsoleAppDemo\bin\Debug\ConsoleAppDemo.exe.config
+D:\SourceCode\repos\csharpcoban\ConsoleAppDemo\bin\Debug\ConsoleAppDemo.exe
+D:\SourceCode\repos\csharpcoban\ConsoleAppDemo\bin\Debug\ConsoleAppDemo.pdb
+D:\SourceCode\repos\csharpcoban\ConsoleAppDemo\bin\Debug\CSharpCoBan.DataAccess.dll
+D:\SourceCode\repos\csharpcoban\ConsoleAppDemo\bin\Debug\CSharpCoban.Common.dll
+D:\SourceCode\repos\csharpcoban\ConsoleAppDemo\bin\Debug\CSharpCoBan.DataAccess.pdb
+D:\SourceCode\repos\csharpcoban\ConsoleAppDemo\bin\Debug\CSharpCoban.Common.pdb
+D:\SourceCode\repos\csharpcoban\ConsoleAppDemo\obj\Debug\ConsoleAppDemo.csproj.AssemblyReference.cache
+D:\SourceCode\repos\csharpcoban\ConsoleAppDemo\obj\Debug\ConsoleAppDemo.csproj.CoreCompileInputs.cache
+D:\SourceCode\repos\csharpcoban\ConsoleAppDemo\obj\Debug\ConsoleA.B1D79DA7.Up2Date
+D:\SourceCode\repos\csharpcoban\ConsoleAppDemo\obj\Debug\ConsoleAppDemo.exe
+D:\SourceCode\repos\csharpcoban\ConsoleAppDemo\obj\Debug\ConsoleAppDemo.pdb

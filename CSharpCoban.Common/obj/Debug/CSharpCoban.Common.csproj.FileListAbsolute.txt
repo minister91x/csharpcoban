@@ -4,3 +4,9 @@ C:\Users\Admin\Source\Repos\csharpcoban\CSharpCoban.Common\obj\Debug\CSharpCoban
 C:\Users\Admin\Source\Repos\csharpcoban\CSharpCoban.Common\obj\Debug\CSharpCoban.Common.csproj.CoreCompileInputs.cache
 C:\Users\Admin\Source\Repos\csharpcoban\CSharpCoban.Common\obj\Debug\CSharpCoban.Common.dll
 C:\Users\Admin\Source\Repos\csharpcoban\CSharpCoban.Common\obj\Debug\CSharpCoban.Common.pdb
+D:\SourceCode\repos\csharpcoban\CSharpCoban.Common\bin\Debug\CSharpCoban.Common.dll
+D:\SourceCode\repos\csharpcoban\CSharpCoban.Common\bin\Debug\CSharpCoban.Common.pdb
+D:\SourceCode\repos\csharpcoban\CSharpCoban.Common\obj\Debug\CSharpCoban.Common.csproj.AssemblyReference.cache
+D:\SourceCode\repos\csharpcoban\CSharpCoban.Common\obj\Debug\CSharpCoban.Common.csproj.CoreCompileInputs.cache
+D:\SourceCode\repos\csharpcoban\CSharpCoban.Common\obj\Debug\CSharpCoban.Common.dll
+D:\SourceCode\repos\csharpcoban\CSharpCoban.Common\obj\Debug\CSharpCoban.Common.pdb

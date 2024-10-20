@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ENUM\MyEnum.cs" />
     <Compile Include="STRUCT\Employeer.cs" />
     <Compile Include="EmployeerManager.cs" />
     <Compile Include="Function.cs" />

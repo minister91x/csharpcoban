@@ -14,5 +14,10 @@ namespace CSharpCoBan.DataAccess.STRUCT
 
         public int Heso { get; set; }
         public DateTime NgayVao { get; set; }
+
+        public string Getinfor()
+        {
+            return HoVaTen;
+        }
     }
 }

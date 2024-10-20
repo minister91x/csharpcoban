@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CSharpCoBan.DataAccess.ENUM;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.ConstrainedExecution;
@@ -109,35 +110,131 @@ namespace ConsoleAppDemo
 
 
 
-            Console.WriteLine("mời nhập id:");
-            var id = Console.ReadLine();
+            //Console.WriteLine("mời nhập id:");
+            //var id = Console.ReadLine();
 
-            Console.WriteLine("mời nhập tên:");
-            var name = Console.ReadLine();
+            //Console.WriteLine("mời nhập tên:");
+            //var name = Console.ReadLine();
 
-            Console.WriteLine("mời nhập ngày sinh:");
-            var ngaysinh = Console.ReadLine();
+            //Console.WriteLine("mời nhập ngày sinh:");
+            //var ngaysinh = Console.ReadLine();
 
-            Console.WriteLine("mời nhập ngày vào làm");
-            var ngayvaolam = Console.ReadLine();
+            //Console.WriteLine("mời nhập ngày vào làm");
+            //var ngayvaolam = Console.ReadLine();
 
-            Console.WriteLine("mời nhập hệ số");
-            var heso = Console.ReadLine();
+            //Console.WriteLine("mời nhập hệ số");
+            //var heso = Console.ReadLine();
 
-            var employeerManager = new CSharpCoBan.DataAccess.EmployeerManager();
-            var ketqua = employeerManager.Employeer_Insert(id, name, ngaysinh, ngayvaolam, heso);
+            //var employeerManager = new CSharpCoBan.DataAccess.EmployeerManager();
+            //var ketqua = employeerManager.Employeer_Insert(id, name, ngaysinh, ngayvaolam, heso);
 
-            var list = employeerManager.Employeer_GetList();
-            if (list.Count > 0)
+            //var list = employeerManager.Employeer_GetList();
+            //if (list.Count > 0)
+            //{
+            //    foreach (var item in list)
+            //    {
+            //        Console.WriteLine("id: {0} \t ",item.ID);
+            //        Console.WriteLine("Name: {0} \t ", item.HoVaTen);
+            //    }
+            //}
+            //Console.WriteLine("ketqua :{0}", ketqua);
+
+
+            // nhân kỷ niệm cty sẽ tăng quà cho nhân viên lâu năm với mốc là 10 năm kể từ ngày hiện tại
+            var sonam = 10;
+            if (sonam == 10)
             {
-                foreach (var item in list)
-                {
-                    Console.WriteLine("id: {0} \t ",item.ID);
-                    Console.WriteLine("Name: {0} \t ", item.HoVaTen);
-                }
+                /// 
             }
-            Console.WriteLine("ketqua :{0}", ketqua);
-            
+            else
+            {
+
+                // code 
+            }
+
+            // đã đặt // đã thanh toán // thành công // thất bại 
+            // giỏi / trung bình / khá 
+            string[] trangthais = { "đã đặt", "thành công" };
+
+            var name1 = trangthais[0];
+            Console.WriteLine("trangthais[0] name1: = {0}", name1);
+
+            // gán giá trị cho mảng
+            trangthais[0] = "đã mua";
+
+            var name2 = trangthais[0];
+            Console.WriteLine("trangthais[0] name2 : = {0}", name2);
+
+            var dodai_cuamang = trangthais.Length; // thuộc tính
+            Console.WriteLine("trangthais[0] dodai_cuamang : = {0}", dodai_cuamang);
+            bool isvalid = trangthais.Any(); // hàm 
+            Console.WriteLine("trangthais[0] isvalid : = {0}", isvalid);
+
+            int[] myArray = { 10, 6, 4, 19 };
+
+            var value = myArray.GetValue(0);
+            var min = myArray.Min();
+            var max = myArray.Max();
+
+            var newarr = myArray.OrderByDescending(x => x).ToArray();
+            var sum = myArray.Sum();
+
+            var asc = myArray.OrderBy(x => x).ToArray();
+
+            Console.WriteLine("myArray value: = {0}", value);
+            Console.WriteLine("myArray min: = {0}", min);
+            Console.WriteLine("myArray max: = {0}", max);
+            Console.WriteLine("myArray sum: = {0}", sum);
+            foreach (var item in newarr)
+            {
+                Console.WriteLine("item: = {0}", item);
+            }
+
+            foreach (var item in asc)
+            {
+                Console.WriteLine("item: = {0}", item);
+            }
+
+            int[,] myvar = new int[3, 4];
+
+            //var trangthai = 0;
+            //if (trangthai == (int)TrangThai_MuaHang.KHOITAO)
+            //{
+            //    // code xử lý
+            //}
+
+            //if (trangthai == (int)TrangThai_MuaHang.THANH_CONG)
+            //{
+            //    // code xử lý
+            //}
+
+            //if (trangthai == (int)TrangThai_MuaHang.HOAN_TIEN)
+            //{
+            //    // code xử lý
+            //}
+
+            //switch (trangthai)
+            //{
+            //    case
+            //        (int)TrangThai_MuaHang.KHOITAO:
+            //        // code xử lý
+            //        break;
+            //    case
+            //        (int)TrangThai_MuaHang.THANH_CONG:
+            //        // code xử lý
+            //        break;
+            //    case
+            //        (int)TrangThai_MuaHang.THAT_BAI:
+            //        break;
+            //    case
+            //        (int)TrangThai_MuaHang.HOAN_TIEN:
+            //        break;
+
+            //    case
+            //        (int)TrangThai_MuaHang.DATRUTIEN_CHUAGIAOHANG:
+            //        break;
+            //}
+
             Console.ReadKey();
         }
     }

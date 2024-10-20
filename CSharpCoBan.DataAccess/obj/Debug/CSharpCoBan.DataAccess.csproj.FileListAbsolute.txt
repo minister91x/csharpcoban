@@ -7,3 +7,12 @@ C:\Users\Admin\Source\Repos\csharpcoban\CSharpCoBan.DataAccess\obj\Debug\CSharpC
 C:\Users\Admin\Source\Repos\csharpcoban\CSharpCoBan.DataAccess\obj\Debug\CSharpCo.A94C10B1.Up2Date
 C:\Users\Admin\Source\Repos\csharpcoban\CSharpCoBan.DataAccess\obj\Debug\CSharpCoBan.DataAccess.dll
 C:\Users\Admin\Source\Repos\csharpcoban\CSharpCoBan.DataAccess\obj\Debug\CSharpCoBan.DataAccess.pdb
+D:\SourceCode\repos\csharpcoban\CSharpCoBan.DataAccess\bin\Debug\CSharpCoBan.DataAccess.dll
+D:\SourceCode\repos\csharpcoban\CSharpCoBan.DataAccess\bin\Debug\CSharpCoBan.DataAccess.pdb
+D:\SourceCode\repos\csharpcoban\CSharpCoBan.DataAccess\bin\Debug\CSharpCoban.Common.dll
+D:\SourceCode\repos\csharpcoban\CSharpCoBan.DataAccess\bin\Debug\CSharpCoban.Common.pdb
+D:\SourceCode\repos\csharpcoban\CSharpCoBan.DataAccess\obj\Debug\CSharpCoBan.DataAccess.csproj.AssemblyReference.cache
+D:\SourceCode\repos\csharpcoban\CSharpCoBan.DataAccess\obj\Debug\CSharpCoBan.DataAccess.csproj.CoreCompileInputs.cache
+D:\SourceCode\repos\csharpcoban\CSharpCoBan.DataAccess\obj\Debug\CSharpCo.A94C10B1.Up2Date
+D:\SourceCode\repos\csharpcoban\CSharpCoBan.DataAccess\obj\Debug\CSharpCoBan.DataAccess.dll
+D:\SourceCode\repos\csharpcoban\CSharpCoBan.DataAccess\obj\Debug\CSharpCoBan.DataAccess.pdb
