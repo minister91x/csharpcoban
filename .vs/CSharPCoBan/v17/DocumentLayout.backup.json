@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "D:\\SourceCode\\repos\\csharpcoban\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{41FF2842-8BB8-432B-A9FF-A2C42AF7BAD9}|ConsoleAppDemo\\ConsoleAppDemo.csproj|D:\\SourceCode\\repos\\csharpcoban\\ConsoleAppDemo\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41FF2842-8BB8-432B-A9FF-A2C42AF7BAD9}|ConsoleAppDemo\\ConsoleAppDemo.csproj|solutionrelative:ConsoleAppDemo\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{41FF2842-8BB8-432B-A9FF-A2C42AF7BAD9}|ConsoleAppDemo\\ConsoleAppDemo.csproj|d:\\sourcecode\\repos\\csharpcoban\\consoleappdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41FF2842-8BB8-432B-A9FF-A2C42AF7BAD9}|ConsoleAppDemo\\ConsoleAppDemo.csproj|solutionrelative:consoleappdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D95584C-EF03-45E8-89C8-FDDF73218485}|CSharpCoBan.DataAccess\\CSharpCoBan.DataAccess.csproj|d:\\sourcecode\\repos\\csharpcoban\\csharpcoban.dataaccess\\enum\\myenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9D95584C-EF03-45E8-89C8-FDDF73218485}|CSharpCoBan.DataAccess\\CSharpCoBan.DataAccess.csproj|D:\\SourceCode\\repos\\csharpcoban\\csharpcoban.dataaccess\\enum\\myenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D95584C-EF03-45E8-89C8-FDDF73218485}|CSharpCoBan.DataAccess\\CSharpCoBan.DataAccess.csproj|solutionrelative:csharpcoban.dataaccess\\enum\\myenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -15,7 +15,7 @@
       "RelativeMoniker": "D:0:0:{9D95584C-EF03-45E8-89C8-FDDF73218485}|CSharpCoBan.DataAccess\\CSharpCoBan.DataAccess.csproj|solutionrelative:CSharpCoBan.DataAccess\\STRUCT\\Employeer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D95584C-EF03-45E8-89C8-FDDF73218485}|CSharpCoBan.DataAccess\\CSharpCoBan.DataAccess.csproj|d:\\sourcecode\\repos\\csharpcoban\\csharpcoban.dataaccess\\employeermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9D95584C-EF03-45E8-89C8-FDDF73218485}|CSharpCoBan.DataAccess\\CSharpCoBan.DataAccess.csproj|D:\\SourceCode\\repos\\csharpcoban\\csharpcoban.dataaccess\\employeermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D95584C-EF03-45E8-89C8-FDDF73218485}|CSharpCoBan.DataAccess\\CSharpCoBan.DataAccess.csproj|solutionrelative:csharpcoban.dataaccess\\employeermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -54,8 +54,7 @@
               "RelativeToolTip": "CSharpCoBan.DataAccess\\ENUM\\MyEnum.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAlwA8AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T02:48:31.718Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-20T02:48:31.718Z"
             },
             {
               "$type": "Document",
@@ -67,8 +66,7 @@
               "RelativeToolTip": "CSharpCoBan.DataAccess\\EmployeerManager.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAACoAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T14:14:20.814Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-13T14:14:20.814Z"
             },
             {
               "$type": "Document",
@@ -80,8 +78,7 @@
               "RelativeToolTip": "CSharpCoBan.DataAccess\\STRUCT\\Employeer.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T14:12:11.476Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-13T14:12:11.476Z"
             },
             {
               "$type": "Document",
@@ -91,7 +88,7 @@
               "RelativeDocumentMoniker": "ConsoleAppDemo\\Program.cs",
               "ToolTip": "D:\\SourceCode\\repos\\csharpcoban\\ConsoleAppDemo\\Program.cs",
               "RelativeToolTip": "ConsoleAppDemo\\Program.cs",
-              "ViewState": "AgIAAKkAAAAAAAAAAAAAALgAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAPoAAAAAAAAAAAAowA0BAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-01T13:43:54.73Z",
               "EditorCaption": ""

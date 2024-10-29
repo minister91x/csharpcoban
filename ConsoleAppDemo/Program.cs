@@ -235,6 +235,42 @@ namespace ConsoleAppDemo
             //        break;
             //}
 
+
+            // Thuộc tính : 
+            var dateNow = DateTime.Now; // trả về thời gian hiện tại theo location ( UTC+ 7)
+            var dateUTCNow = DateTime.UtcNow;// TRẢ VỀ GIỜ UTC + 0 
+
+            // Phương thức : -> tất cả phương thức liên quan đến thời gian 
+            // Thêm ,bớt , khoảng cách giữa 2 mốc thời , so sánh thời gian , định dạng thời gian ( dd/MM/yyyy ...vvv
+
+            //1.Thêm bớt :
+            var newDateAdd = dateNow.AddDays(-1);
+
+            var timeSpan = new TimeSpan(-5, 10, 10); // 1 khoảng thời gian 
+
+            var newDateAddSpan = dateNow.Add(timeSpan);
+
+            var subdate = dateNow.Subtract(new DateTime(2005, 9, 5)); // khoảng cách giữa 2 mốc thời gian 
+
+            // hãy tính số ngày mình đã được sinh ra 
+            DateTime aDateTime = new DateTime(2022, 8, 22, 19, 30, 00);
+            // Các định dạng date-time được hỗ trợ.
+            //string[] formattedStrings = aDateTime.GetDateTimeFormats();
+
+            //foreach (string format in formattedStrings)
+            //{
+            //    Console.WriteLine(format);
+            //}
+
+           var days= DateTime.DaysInMonth(1980, 08);
+
+            Console.WriteLine("dateNow : = {0}", dateNow);
+            Console.WriteLine("dateUTCNow : = {0}", dateUTCNow);
+            Console.WriteLine("newDateAdd : = {0}", newDateAdd);
+            Console.WriteLine("newDateAddSpan : = {0}", newDateAddSpan);
+            Console.WriteLine("newDateAddSpan : = {0}", subdate.TotalDays);
+            Console.WriteLine("aDateTime : = {0}", aDateTime.ToString("dd-MM-yy HH:mm:ss"));
+            Console.WriteLine("days : = {0}", days);
             Console.ReadKey();
         }
     }
