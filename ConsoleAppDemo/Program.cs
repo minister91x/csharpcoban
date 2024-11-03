@@ -1,5 +1,8 @@
 ﻿using CSharpCoBan.DataAccess.ENUM;
+using CSharpCoBan.DataAccess.Generic;
+using CSharpCoBan.DataAccess.STRUCT;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.ConstrainedExecution;
@@ -237,20 +240,20 @@ namespace ConsoleAppDemo
 
 
             // Thuộc tính : 
-            var dateNow = DateTime.Now; // trả về thời gian hiện tại theo location ( UTC+ 7)
-            var dateUTCNow = DateTime.UtcNow;// TRẢ VỀ GIỜ UTC + 0 
+            // var dateNow = DateTime.Now; // trả về thời gian hiện tại theo location ( UTC+ 7)
+            // var dateUTCNow = DateTime.UtcNow;// TRẢ VỀ GIỜ UTC + 0 
 
             // Phương thức : -> tất cả phương thức liên quan đến thời gian 
             // Thêm ,bớt , khoảng cách giữa 2 mốc thời , so sánh thời gian , định dạng thời gian ( dd/MM/yyyy ...vvv
 
             //1.Thêm bớt :
-            var newDateAdd = dateNow.AddDays(-1);
+            //var newDateAdd = dateNow.AddDays(-1);
 
-            var timeSpan = new TimeSpan(-5, 10, 10); // 1 khoảng thời gian 
+            // var timeSpan = new TimeSpan(-5, 10, 10); // 1 khoảng thời gian 
 
-            var newDateAddSpan = dateNow.Add(timeSpan);
+            //var newDateAddSpan = dateNow.Add(timeSpan);
 
-            var subdate = dateNow.Subtract(new DateTime(2005, 9, 5)); // khoảng cách giữa 2 mốc thời gian 
+            //var subdate = dateNow.Subtract(new DateTime(2005, 9, 5)); // khoảng cách giữa 2 mốc thời gian 
 
             // hãy tính số ngày mình đã được sinh ra 
             DateTime aDateTime = new DateTime(2022, 8, 22, 19, 30, 00);
@@ -262,15 +265,50 @@ namespace ConsoleAppDemo
             //    Console.WriteLine(format);
             //}
 
-           var days= DateTime.DaysInMonth(1980, 08);
+            //var days= DateTime.DaysInMonth(1980, 08);
 
-            Console.WriteLine("dateNow : = {0}", dateNow);
-            Console.WriteLine("dateUTCNow : = {0}", dateUTCNow);
-            Console.WriteLine("newDateAdd : = {0}", newDateAdd);
-            Console.WriteLine("newDateAddSpan : = {0}", newDateAddSpan);
-            Console.WriteLine("newDateAddSpan : = {0}", subdate.TotalDays);
-            Console.WriteLine("aDateTime : = {0}", aDateTime.ToString("dd-MM-yy HH:mm:ss"));
-            Console.WriteLine("days : = {0}", days);
+            // Console.WriteLine("dateNow : = {0}", dateNow);
+            // Console.WriteLine("dateUTCNow : = {0}", dateUTCNow);
+            // Console.WriteLine("newDateAdd : = {0}", newDateAdd);
+            // Console.WriteLine("newDateAddSpan : = {0}", newDateAddSpan);
+            // Console.WriteLine("newDateAddSpan : = {0}", subdate.TotalDays);
+            // Console.WriteLine("aDateTime : = {0}", aDateTime.ToString("dd-MM-yy HH:mm:ss"));
+            // Console.WriteLine("days : = {0}", days);
+
+            var myGeneric = new Generic<long>();
+            myGeneric.Tong2So(10, 30);
+            Console.WriteLine("Tong2So : = {0}", myGeneric.Tong2So(10, 30));
+
+            var myGenericObject = new GenericObject<Employeer>();
+            myGenericObject.MyProperties = new Employeer
+            { ID = "EP001" };
+
+            var id = myGenericObject.GetValue().ID;
+
+            Console.WriteLine("id : = {0}", id);
+
+            Dictionary<string, string> _phoneBook = new Dictionary<string, string>()
+                {
+                {"Trump", "0123.456.789" },
+                {"Obama", "0987.654.321" },
+                {"Putin", "0135.246.789" }
+                };
+
+            foreach (KeyValuePair<string, string> entry in _phoneBook)
+            {
+                Console.WriteLine($" -> {entry.Key} : {entry.Value}");
+            }
+
+            ArrayList arrayList = new ArrayList();
+            arrayList.Add("string");
+            arrayList.Add(true);
+            arrayList.Add(1.5);
+
+            foreach (var item in arrayList)
+            {
+                Console.WriteLine("->{0}" , item);
+            }
+
             Console.ReadKey();
         }
     }
