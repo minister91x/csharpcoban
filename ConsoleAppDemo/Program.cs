@@ -1,4 +1,5 @@
-﻿using CSharpCoBan.DataAccess.ENUM;
+﻿using CSharpCoBan.DataAccess.Class;
+using CSharpCoBan.DataAccess.ENUM;
 using CSharpCoBan.DataAccess.Generic;
 using CSharpCoBan.DataAccess.STRUCT;
 using System;
@@ -275,40 +276,45 @@ namespace ConsoleAppDemo
             // Console.WriteLine("aDateTime : = {0}", aDateTime.ToString("dd-MM-yy HH:mm:ss"));
             // Console.WriteLine("days : = {0}", days);
 
-            var myGeneric = new Generic<long>();
-            myGeneric.Tong2So(10, 30);
-            Console.WriteLine("Tong2So : = {0}", myGeneric.Tong2So(10, 30));
+            //var myGeneric = new Generic<long>();
+            //myGeneric.Tong2So(10, 30);
+            //Console.WriteLine("Tong2So : = {0}", myGeneric.Tong2So(10, 30));
 
-            var myGenericObject = new GenericObject<Employeer>();
-            myGenericObject.MyProperties = new Employeer
-            { ID = "EP001" };
+            //var myGenericObject = new GenericObject<Employeer>();
+            //myGenericObject.MyProperties = new Employeer
+            //{ ID = "EP001" };
 
-            var id = myGenericObject.GetValue().ID;
+            //var id = myGenericObject.GetValue().ID;
 
-            Console.WriteLine("id : = {0}", id);
+            //Console.WriteLine("id : = {0}", id);
 
-            Dictionary<string, string> _phoneBook = new Dictionary<string, string>()
-                {
-                {"Trump", "0123.456.789" },
-                {"Obama", "0987.654.321" },
-                {"Putin", "0135.246.789" }
-                };
+            //Dictionary<string, string> _phoneBook = new Dictionary<string, string>()
+            //    {
+            //    {"Trump", "0123.456.789" },
+            //    {"Obama", "0987.654.321" },
+            //    {"Putin", "0135.246.789" }
+            //    };
 
-            foreach (KeyValuePair<string, string> entry in _phoneBook)
-            {
-                Console.WriteLine($" -> {entry.Key} : {entry.Value}");
-            }
+            //foreach (KeyValuePair<string, string> entry in _phoneBook)
+            //{
+            //    Console.WriteLine($" -> {entry.Key} : {entry.Value}");
+            //}
 
-            ArrayList arrayList = new ArrayList();
-            arrayList.Add("string");
-            arrayList.Add(true);
-            arrayList.Add(1.5);
+            //ArrayList arrayList = new ArrayList();
+            //arrayList.Add("string");
+            //arrayList.Add(true);
+            //arrayList.Add(1.5);
 
-            foreach (var item in arrayList)
-            {
-                Console.WriteLine("->{0}" , item);
-            }
+            //foreach (var item in arrayList)
+            //{
+            //    Console.WriteLine("->{0}" , item);
+            //}
 
+
+            var p = new Bird();
+            Console.WriteLine("Bird Eat -> {0} | Sound -> {1}", p.Eat(),p.GetSound());
+            var c = new Cow();
+            Console.WriteLine("Cow Eat -> {0} | Sound -> {1}", c.Eat(), c.GetSound());
             Console.ReadKey();
         }
     }

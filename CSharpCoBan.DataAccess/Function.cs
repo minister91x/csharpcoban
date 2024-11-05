@@ -48,6 +48,7 @@ namespace CSharpCoBan.DataAccess
 
         public void Tong_ThamChieu(ref int so)
         {
+            var p = new Person();
             so = so * so;
         }
 
