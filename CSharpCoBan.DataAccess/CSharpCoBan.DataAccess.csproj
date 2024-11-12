@@ -41,14 +41,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bai1Manager.cs" />
+    <Compile Include="Bai2Manager.cs" />
     <Compile Include="Class\Animal_Abstract.cs" />
     <Compile Include="Class\Bird.cs" />
     <Compile Include="Class\Cow.cs" />
     <Compile Include="Class\Employee.cs" />
+    <Compile Include="DO\bai1.cs" />
+    <Compile Include="DO\Bai2.cs" />
+    <Compile Include="Interface\Bai2.cs" />
     <Compile Include="Interface\EmployeerBussiness.cs" />
     <Compile Include="ENUM\MyEnum.cs" />
     <Compile Include="Generic\Generic.cs" />
     <Compile Include="Generic\GenericObject.cs" />
+    <Compile Include="Interface\IBAI1.cs" />
     <Compile Include="Interface\IEmployeer.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="STRUCT\Employeer.cs" />

@@ -12,5 +12,10 @@ namespace CSharpCoBan.DataAccess.Class
         {
             throw new NotImplementedException();
         }
+
+        public int Update()
+        {
+            return 1;
+        }
     }
 }

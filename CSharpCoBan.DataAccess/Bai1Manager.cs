@@ -1,5 +1,4 @@
-﻿using CSharpCoBan.DataAccess.Class;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,9 +6,7 @@ using System.Threading.Tasks;
 
 namespace CSharpCoBan.DataAccess
 {
-    public interface IEmployeer
+    internal class Bai1Manager
     {
-        int Add(Employee employee);
-        int Update();
     }
 }

@@ -62,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -71,19 +71,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Cow.cs",
-              "DocumentMoniker": "D:\\SourceCode\\repos\\csharpcoban\\CSharpCoBan.DataAccess\\Class\\Cow.cs",
-              "RelativeDocumentMoniker": "CSharpCoBan.DataAccess\\Class\\Cow.cs",
-              "ToolTip": "D:\\SourceCode\\repos\\csharpcoban\\CSharpCoBan.DataAccess\\Class\\Cow.cs",
-              "RelativeToolTip": "CSharpCoBan.DataAccess\\Class\\Cow.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T14:22:30.975Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -182,9 +169,22 @@
               "RelativeDocumentMoniker": "ConsoleAppDemo\\Program.cs",
               "ToolTip": "D:\\SourceCode\\repos\\csharpcoban\\ConsoleAppDemo\\Program.cs",
               "RelativeToolTip": "ConsoleAppDemo\\Program.cs",
-              "ViewState": "AgIAACYBAAAAAAAAAAAswDcBAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACwBAAAAAAAAAAAswDwBAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-01T13:43:54.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Cow.cs",
+              "DocumentMoniker": "D:\\SourceCode\\repos\\csharpcoban\\CSharpCoBan.DataAccess\\Class\\Cow.cs",
+              "RelativeDocumentMoniker": "CSharpCoBan.DataAccess\\Class\\Cow.cs",
+              "ToolTip": "D:\\SourceCode\\repos\\csharpcoban\\CSharpCoBan.DataAccess\\Class\\Cow.cs",
+              "RelativeToolTip": "CSharpCoBan.DataAccess\\Class\\Cow.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T14:22:30.975Z",
               "EditorCaption": ""
             },
             {
