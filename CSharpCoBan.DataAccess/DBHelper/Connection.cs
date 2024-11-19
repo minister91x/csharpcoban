@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSharpCoBan.DataAccess.Interface
+namespace CSharpCoBan.DataAccess.DBHelper
 {
-    internal interface IBAI1
+    public abstract class Connection<T>
     {
+        public abstract T DoConnect();
     }
 }

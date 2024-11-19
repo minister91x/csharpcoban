@@ -1,6 +1,7 @@
 ﻿using CSharpCoBan.DataAccess.Class;
 using CSharpCoBan.DataAccess.ENUM;
 using CSharpCoBan.DataAccess.Generic;
+using CSharpCoBan.DataAccess.Repository;
 using CSharpCoBan.DataAccess.STRUCT;
 using System;
 using System.Collections;
@@ -311,10 +312,23 @@ namespace ConsoleAppDemo
             //}
 
 
-            var p = new Bird();
-            Console.WriteLine("Bird Eat -> {0} | Sound -> {1}", p.Eat(),p.GetSound());
-            var c = new Cow();
-            Console.WriteLine("Cow Eat -> {0} | Sound -> {1}", c.Eat(), c.GetSound());
+            //var p = new Bird();
+            //Console.WriteLine("Bird Eat -> {0} | Sound -> {1}", p.Eat(),p.GetSound());
+            //var c = new Cow();
+            //Console.WriteLine("Cow Eat -> {0} | Sound -> {1}", c.Eat(), c.GetSound());
+
+
+            var repo = new AccountRepository();
+            var result = repo.Login("admin", "123456");
+            if (result <= 0)
+            {
+                Console.WriteLine("đăng nhập thất bại");
+            }
+            else
+            {
+                Console.WriteLine("đăng nhập thành công");
+            }
+
             Console.ReadKey();
         }
     }

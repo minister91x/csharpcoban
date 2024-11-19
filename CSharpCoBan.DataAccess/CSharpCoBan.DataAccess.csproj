@@ -47,16 +47,17 @@
     <Compile Include="Class\Bird.cs" />
     <Compile Include="Class\Cow.cs" />
     <Compile Include="Class\Employee.cs" />
-    <Compile Include="DO\bai1.cs" />
-    <Compile Include="DO\Bai2.cs" />
-    <Compile Include="Interface\Bai2.cs" />
+    <Compile Include="DBHelper\Connection.cs" />
+    <Compile Include="DBHelper\SqlConnectionDB.cs" />
+    <Compile Include="DO\AccountDTO.cs" />
     <Compile Include="Interface\EmployeerBussiness.cs" />
     <Compile Include="ENUM\MyEnum.cs" />
     <Compile Include="Generic\Generic.cs" />
     <Compile Include="Generic\GenericObject.cs" />
-    <Compile Include="Interface\IBAI1.cs" />
+    <Compile Include="Interface\IAccountRepository.cs" />
     <Compile Include="Interface\IEmployeer.cs" />
     <Compile Include="Person.cs" />
+    <Compile Include="Repository\AccountRepository.cs" />
     <Compile Include="STRUCT\Employeer.cs" />
     <Compile Include="EmployeerManager.cs" />
     <Compile Include="Function.cs" />
@@ -68,5 +69,6 @@
       <Name>CSharpCoban.Common</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
