@@ -50,6 +50,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\CSharpCoban.Common\CSharpCoban.Common.csproj">
+      <Project>{75977b23-07fe-4403-afde-b07522f69405}</Project>
+      <Name>CSharpCoban.Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\CSharpCoBan.DataAccess\CSharpCoBan.DataAccess.csproj">
       <Project>{9d95584c-ef03-45e8-89c8-fddf73218485}</Project>
       <Name>CSharpCoBan.DataAccess</Name>

@@ -13,4 +13,6 @@ namespace CSharpCoBan.DataAccess.DO
       public string PassWord{get;set;}
       public int IsAdmin{get;set;}
     }
+
+    
 }

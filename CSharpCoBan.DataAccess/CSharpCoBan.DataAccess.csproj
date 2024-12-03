@@ -50,6 +50,7 @@
     <Compile Include="DBHelper\Connection.cs" />
     <Compile Include="DBHelper\SqlConnectionDB.cs" />
     <Compile Include="DO\AccountDTO.cs" />
+    <Compile Include="DO\Request\Account_GetistRequestData.cs" />
     <Compile Include="Interface\EmployeerBussiness.cs" />
     <Compile Include="ENUM\MyEnum.cs" />
     <Compile Include="Generic\Generic.cs" />

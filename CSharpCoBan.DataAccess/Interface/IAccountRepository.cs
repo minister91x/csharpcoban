@@ -1,4 +1,5 @@
 ﻿using CSharpCoBan.DataAccess.DO;
+using CSharpCoBan.DataAccess.DO.Request;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,5 +12,7 @@ namespace CSharpCoBan.DataAccess.Interface
     {
         int Login(string username, string password);
         int Account_Insert(AccountDTO accountDTO);
+
+        List<AccountDTO> Account_GetList(Account_GetistRequestData requestData);
     }
 }

@@ -52,7 +52,7 @@ namespace CSharpCoban.Common
         {
             if (string.IsNullOrEmpty(inputData)) return false;
             if (!int.TryParse(inputData, out int value)) return false;
-            if (value < 18 || value > 150) return false;
+            //if (value < 18 || value > 150) return false;
             return true;
 
         }
