@@ -16,3 +16,8 @@ D:\SourceCode\repos\csharpcoban\CSharpCoBan.DataAccess\obj\Debug\CSharpCoBan.Dat
 D:\SourceCode\repos\csharpcoban\CSharpCoBan.DataAccess\obj\Debug\CSharpCo.A94C10B1.Up2Date
 D:\SourceCode\repos\csharpcoban\CSharpCoBan.DataAccess\obj\Debug\CSharpCoBan.DataAccess.dll
 D:\SourceCode\repos\csharpcoban\CSharpCoBan.DataAccess\obj\Debug\CSharpCoBan.DataAccess.pdb
+C:\Users\Admin\source\repos\csharpcoban\CSharpCoBan.DataAccess\bin\Debug\CSharpCoBan.DataAccess.dll.config
+C:\Users\Admin\source\repos\csharpcoban\CSharpCoBan.DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\Admin\source\repos\csharpcoban\CSharpCoBan.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin\source\repos\csharpcoban\CSharpCoBan.DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\Admin\source\repos\csharpcoban\CSharpCoBan.DataAccess\bin\Debug\EntityFramework.SqlServer.xml

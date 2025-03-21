@@ -22,3 +22,8 @@ D:\SourceCode\repos\csharpcoban\ConsoleAppDemo\obj\Debug\ConsoleAppDemo.csproj.C
 D:\SourceCode\repos\csharpcoban\ConsoleAppDemo\obj\Debug\ConsoleA.B1D79DA7.Up2Date
 D:\SourceCode\repos\csharpcoban\ConsoleAppDemo\obj\Debug\ConsoleAppDemo.exe
 D:\SourceCode\repos\csharpcoban\ConsoleAppDemo\obj\Debug\ConsoleAppDemo.pdb
+C:\Users\Admin\source\repos\csharpcoban\ConsoleAppDemo\bin\Debug\EntityFramework.dll
+C:\Users\Admin\source\repos\csharpcoban\ConsoleAppDemo\bin\Debug\CSharpCoBan.DataAccess.dll.config
+C:\Users\Admin\source\repos\csharpcoban\ConsoleAppDemo\bin\Debug\EntityFramework.xml
+C:\Users\Admin\source\repos\csharpcoban\ConsoleAppDemo\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin\source\repos\csharpcoban\ConsoleAppDemo\bin\Debug\EntityFramework.SqlServer.xml

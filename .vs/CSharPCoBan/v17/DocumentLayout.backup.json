@@ -1,98 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\SourceCode\\repos\\csharpcoban\\",
+  "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{41FF2842-8BB8-432B-A9FF-A2C42AF7BAD9}|ConsoleAppDemo\\ConsoleAppDemo.csproj|D:\\SourceCode\\repos\\csharpcoban\\consoleappdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9D95584C-EF03-45E8-89C8-FDDF73218485}|CSharpCoBan.DataAccess\\CSharpCoBan.DataAccess.csproj|c:\\users\\admin\\source\\repos\\csharpcoban\\csharpcoban.dataaccess\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D95584C-EF03-45E8-89C8-FDDF73218485}|CSharpCoBan.DataAccess\\CSharpCoBan.DataAccess.csproj|solutionrelative:csharpcoban.dataaccess\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41FF2842-8BB8-432B-A9FF-A2C42AF7BAD9}|ConsoleAppDemo\\ConsoleAppDemo.csproj|c:\\users\\admin\\source\\repos\\csharpcoban\\consoleappdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41FF2842-8BB8-432B-A9FF-A2C42AF7BAD9}|ConsoleAppDemo\\ConsoleAppDemo.csproj|solutionrelative:consoleappdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75977B23-07FE-4403-AFDE-B07522F69405}|CSharpCoban.Common\\CSharpCoban.Common.csproj|D:\\SourceCode\\repos\\csharpcoban\\CSharpCoban.Common\\Validate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75977B23-07FE-4403-AFDE-B07522F69405}|CSharpCoban.Common\\CSharpCoban.Common.csproj|solutionrelative:CSharpCoban.Common\\Validate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9D95584C-EF03-45E8-89C8-FDDF73218485}|CSharpCoBan.DataAccess\\CSharpCoBan.DataAccess.csproj|c:\\users\\admin\\source\\repos\\csharpcoban\\csharpcoban.dataaccess\\entitesframework\\myappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D95584C-EF03-45E8-89C8-FDDF73218485}|CSharpCoBan.DataAccess\\CSharpCoBan.DataAccess.csproj|solutionrelative:csharpcoban.dataaccess\\entitesframework\\myappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D95584C-EF03-45E8-89C8-FDDF73218485}|CSharpCoBan.DataAccess\\CSharpCoBan.DataAccess.csproj|D:\\SourceCode\\repos\\csharpcoban\\csharpcoban.dataaccess\\repository\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{41FF2842-8BB8-432B-A9FF-A2C42AF7BAD9}|ConsoleAppDemo\\ConsoleAppDemo.csproj|c:\\users\\admin\\source\\repos\\csharpcoban\\consoleappdemo\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{41FF2842-8BB8-432B-A9FF-A2C42AF7BAD9}|ConsoleAppDemo\\ConsoleAppDemo.csproj|solutionrelative:consoleappdemo\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D95584C-EF03-45E8-89C8-FDDF73218485}|CSharpCoBan.DataAccess\\CSharpCoBan.DataAccess.csproj|c:\\users\\admin\\source\\repos\\csharpcoban\\csharpcoban.dataaccess\\repository\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D95584C-EF03-45E8-89C8-FDDF73218485}|CSharpCoBan.DataAccess\\CSharpCoBan.DataAccess.csproj|solutionrelative:csharpcoban.dataaccess\\repository\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D95584C-EF03-45E8-89C8-FDDF73218485}|CSharpCoBan.DataAccess\\CSharpCoBan.DataAccess.csproj|D:\\SourceCode\\repos\\csharpcoban\\csharpcoban.dataaccess\\interface\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D95584C-EF03-45E8-89C8-FDDF73218485}|CSharpCoBan.DataAccess\\CSharpCoBan.DataAccess.csproj|solutionrelative:csharpcoban.dataaccess\\interface\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D95584C-EF03-45E8-89C8-FDDF73218485}|CSharpCoBan.DataAccess\\CSharpCoBan.DataAccess.csproj|d:\\sourcecode\\repos\\csharpcoban\\csharpcoban.dataaccess\\do\\request\\account_getistrequestdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D95584C-EF03-45E8-89C8-FDDF73218485}|CSharpCoBan.DataAccess\\CSharpCoBan.DataAccess.csproj|solutionrelative:csharpcoban.dataaccess\\do\\request\\account_getistrequestdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D95584C-EF03-45E8-89C8-FDDF73218485}|CSharpCoBan.DataAccess\\CSharpCoBan.DataAccess.csproj|d:\\sourcecode\\repos\\csharpcoban\\csharpcoban.dataaccess\\do\\accountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D95584C-EF03-45E8-89C8-FDDF73218485}|CSharpCoBan.DataAccess\\CSharpCoBan.DataAccess.csproj|solutionrelative:csharpcoban.dataaccess\\do\\accountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D95584C-EF03-45E8-89C8-FDDF73218485}|CSharpCoBan.DataAccess\\CSharpCoBan.DataAccess.csproj|d:\\sourcecode\\repos\\csharpcoban\\csharpcoban.dataaccess\\dbhelper\\sqlconnectiondb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D95584C-EF03-45E8-89C8-FDDF73218485}|CSharpCoBan.DataAccess\\CSharpCoBan.DataAccess.csproj|solutionrelative:csharpcoban.dataaccess\\dbhelper\\sqlconnectiondb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D95584C-EF03-45E8-89C8-FDDF73218485}|CSharpCoBan.DataAccess\\CSharpCoBan.DataAccess.csproj|D:\\SourceCode\\repos\\csharpcoban\\csharpcoban.dataaccess\\dbhelper\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D95584C-EF03-45E8-89C8-FDDF73218485}|CSharpCoBan.DataAccess\\CSharpCoBan.DataAccess.csproj|solutionrelative:csharpcoban.dataaccess\\dbhelper\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D95584C-EF03-45E8-89C8-FDDF73218485}|CSharpCoBan.DataAccess\\CSharpCoBan.DataAccess.csproj|D:\\SourceCode\\repos\\csharpcoban\\csharpcoban.dataaccess\\bai1manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D95584C-EF03-45E8-89C8-FDDF73218485}|CSharpCoBan.DataAccess\\CSharpCoBan.DataAccess.csproj|solutionrelative:csharpcoban.dataaccess\\bai1manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D95584C-EF03-45E8-89C8-FDDF73218485}|CSharpCoBan.DataAccess\\CSharpCoBan.DataAccess.csproj|D:\\SourceCode\\repos\\csharpcoban\\csharpcoban.dataaccess\\bai2manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D95584C-EF03-45E8-89C8-FDDF73218485}|CSharpCoBan.DataAccess\\CSharpCoBan.DataAccess.csproj|solutionrelative:csharpcoban.dataaccess\\bai2manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D95584C-EF03-45E8-89C8-FDDF73218485}|CSharpCoBan.DataAccess\\CSharpCoBan.DataAccess.csproj|D:\\SourceCode\\repos\\csharpcoban\\csharpcoban.dataaccess\\employeermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D95584C-EF03-45E8-89C8-FDDF73218485}|CSharpCoBan.DataAccess\\CSharpCoBan.DataAccess.csproj|solutionrelative:csharpcoban.dataaccess\\employeermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D95584C-EF03-45E8-89C8-FDDF73218485}|CSharpCoBan.DataAccess\\CSharpCoBan.DataAccess.csproj|D:\\SourceCode\\repos\\csharpcoban\\csharpcoban.dataaccess\\interface\\employeerbussiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D95584C-EF03-45E8-89C8-FDDF73218485}|CSharpCoBan.DataAccess\\CSharpCoBan.DataAccess.csproj|solutionrelative:csharpcoban.dataaccess\\interface\\employeerbussiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D95584C-EF03-45E8-89C8-FDDF73218485}|CSharpCoBan.DataAccess\\CSharpCoBan.DataAccess.csproj|D:\\SourceCode\\repos\\csharpcoban\\csharpcoban.dataaccess\\interface\\iemployeer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D95584C-EF03-45E8-89C8-FDDF73218485}|CSharpCoBan.DataAccess\\CSharpCoBan.DataAccess.csproj|solutionrelative:csharpcoban.dataaccess\\interface\\iemployeer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D95584C-EF03-45E8-89C8-FDDF73218485}|CSharpCoBan.DataAccess\\CSharpCoBan.DataAccess.csproj|D:\\SourceCode\\repos\\csharpcoban\\csharpcoban.dataaccess\\class\\animal_abstract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D95584C-EF03-45E8-89C8-FDDF73218485}|CSharpCoBan.DataAccess\\CSharpCoBan.DataAccess.csproj|solutionrelative:csharpcoban.dataaccess\\class\\animal_abstract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D95584C-EF03-45E8-89C8-FDDF73218485}|CSharpCoBan.DataAccess\\CSharpCoBan.DataAccess.csproj|D:\\SourceCode\\repos\\csharpcoban\\csharpcoban.dataaccess\\class\\bird.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D95584C-EF03-45E8-89C8-FDDF73218485}|CSharpCoBan.DataAccess\\CSharpCoBan.DataAccess.csproj|solutionrelative:csharpcoban.dataaccess\\class\\bird.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D95584C-EF03-45E8-89C8-FDDF73218485}|CSharpCoBan.DataAccess\\CSharpCoBan.DataAccess.csproj|D:\\SourceCode\\repos\\csharpcoban\\csharpcoban.dataaccess\\class\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D95584C-EF03-45E8-89C8-FDDF73218485}|CSharpCoBan.DataAccess\\CSharpCoBan.DataAccess.csproj|solutionrelative:csharpcoban.dataaccess\\class\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D95584C-EF03-45E8-89C8-FDDF73218485}|CSharpCoBan.DataAccess\\CSharpCoBan.DataAccess.csproj|D:\\SourceCode\\repos\\csharpcoban\\csharpcoban.dataaccess\\class\\cow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D95584C-EF03-45E8-89C8-FDDF73218485}|CSharpCoBan.DataAccess\\CSharpCoBan.DataAccess.csproj|solutionrelative:csharpcoban.dataaccess\\class\\cow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D95584C-EF03-45E8-89C8-FDDF73218485}|CSharpCoBan.DataAccess\\CSharpCoBan.DataAccess.csproj|D:\\SourceCode\\repos\\csharpcoban\\CSharpCoBan.DataAccess\\Function.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D95584C-EF03-45E8-89C8-FDDF73218485}|CSharpCoBan.DataAccess\\CSharpCoBan.DataAccess.csproj|solutionrelative:CSharpCoBan.DataAccess\\Function.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D95584C-EF03-45E8-89C8-FDDF73218485}|CSharpCoBan.DataAccess\\CSharpCoBan.DataAccess.csproj|D:\\SourceCode\\repos\\csharpcoban\\csharpcoban.dataaccess\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D95584C-EF03-45E8-89C8-FDDF73218485}|CSharpCoBan.DataAccess\\CSharpCoBan.DataAccess.csproj|solutionrelative:csharpcoban.dataaccess\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D95584C-EF03-45E8-89C8-FDDF73218485}|CSharpCoBan.DataAccess\\CSharpCoBan.DataAccess.csproj|D:\\SourceCode\\repos\\csharpcoban\\csharpcoban.dataaccess\\generic\\genericobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D95584C-EF03-45E8-89C8-FDDF73218485}|CSharpCoBan.DataAccess\\CSharpCoBan.DataAccess.csproj|solutionrelative:csharpcoban.dataaccess\\generic\\genericobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D95584C-EF03-45E8-89C8-FDDF73218485}|CSharpCoBan.DataAccess\\CSharpCoBan.DataAccess.csproj|D:\\SourceCode\\repos\\csharpcoban\\csharpcoban.dataaccess\\generic\\generic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D95584C-EF03-45E8-89C8-FDDF73218485}|CSharpCoBan.DataAccess\\CSharpCoBan.DataAccess.csproj|solutionrelative:csharpcoban.dataaccess\\generic\\generic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D95584C-EF03-45E8-89C8-FDDF73218485}|CSharpCoBan.DataAccess\\CSharpCoBan.DataAccess.csproj|D:\\SourceCode\\repos\\csharpcoban\\csharpcoban.dataaccess\\enum\\myenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D95584C-EF03-45E8-89C8-FDDF73218485}|CSharpCoBan.DataAccess\\CSharpCoBan.DataAccess.csproj|solutionrelative:csharpcoban.dataaccess\\enum\\myenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D95584C-EF03-45E8-89C8-FDDF73218485}|CSharpCoBan.DataAccess\\CSharpCoBan.DataAccess.csproj|D:\\SourceCode\\repos\\csharpcoban\\CSharpCoBan.DataAccess\\STRUCT\\Employeer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D95584C-EF03-45E8-89C8-FDDF73218485}|CSharpCoBan.DataAccess\\CSharpCoBan.DataAccess.csproj|solutionrelative:CSharpCoBan.DataAccess\\STRUCT\\Employeer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9D95584C-EF03-45E8-89C8-FDDF73218485}|CSharpCoBan.DataAccess\\CSharpCoBan.DataAccess.csproj|c:\\users\\admin\\source\\repos\\csharpcoban\\csharpcoban.dataaccess\\interface\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D95584C-EF03-45E8-89C8-FDDF73218485}|CSharpCoBan.DataAccess\\CSharpCoBan.DataAccess.csproj|solutionrelative:csharpcoban.dataaccess\\interface\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -102,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -114,286 +46,81 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AccountDTO.cs",
-              "DocumentMoniker": "D:\\SourceCode\\repos\\csharpcoban\\CSharpCoBan.DataAccess\\DO\\AccountDTO.cs",
-              "RelativeDocumentMoniker": "CSharpCoBan.DataAccess\\DO\\AccountDTO.cs",
-              "ToolTip": "D:\\SourceCode\\repos\\csharpcoban\\CSharpCoBan.DataAccess\\DO\\AccountDTO.cs",
-              "RelativeToolTip": "CSharpCoBan.DataAccess\\DO\\AccountDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T13:19:34.551Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AccountRepository.cs",
-              "DocumentMoniker": "D:\\SourceCode\\repos\\csharpcoban\\CSharpCoBan.DataAccess\\Repository\\AccountRepository.cs",
-              "RelativeDocumentMoniker": "CSharpCoBan.DataAccess\\Repository\\AccountRepository.cs",
-              "ToolTip": "D:\\SourceCode\\repos\\csharpcoban\\CSharpCoBan.DataAccess\\Repository\\AccountRepository.cs",
-              "RelativeToolTip": "CSharpCoBan.DataAccess\\Repository\\AccountRepository.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAswFsAAAARAAAAAAAAAA==",
+              "Title": "MyAppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoBan.DataAccess\\EntitesFrameWork\\MyAppDbContext.cs",
+              "RelativeDocumentMoniker": "CSharpCoBan.DataAccess\\EntitesFrameWork\\MyAppDbContext.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoBan.DataAccess\\EntitesFrameWork\\MyAppDbContext.cs",
+              "RelativeToolTip": "CSharpCoBan.DataAccess\\EntitesFrameWork\\MyAppDbContext.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAADwvxQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T13:41:48.994Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IAccountRepository.cs",
-              "DocumentMoniker": "D:\\SourceCode\\repos\\csharpcoban\\CSharpCoBan.DataAccess\\Interface\\IAccountRepository.cs",
-              "RelativeDocumentMoniker": "CSharpCoBan.DataAccess\\Interface\\IAccountRepository.cs",
-              "ToolTip": "D:\\SourceCode\\repos\\csharpcoban\\CSharpCoBan.DataAccess\\Interface\\IAccountRepository.cs",
-              "RelativeToolTip": "CSharpCoBan.DataAccess\\Interface\\IAccountRepository.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAuwBIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T13:38:56.572Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SqlConnectionDB.cs",
-              "DocumentMoniker": "D:\\SourceCode\\repos\\csharpcoban\\CSharpCoBan.DataAccess\\DBHelper\\SqlConnectionDB.cs",
-              "RelativeDocumentMoniker": "CSharpCoBan.DataAccess\\DBHelper\\SqlConnectionDB.cs",
-              "ToolTip": "D:\\SourceCode\\repos\\csharpcoban\\CSharpCoBan.DataAccess\\DBHelper\\SqlConnectionDB.cs",
-              "RelativeToolTip": "CSharpCoBan.DataAccess\\DBHelper\\SqlConnectionDB.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T13:30:02.648Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\SourceCode\\repos\\csharpcoban\\ConsoleAppDemo\\Program.cs",
-              "RelativeDocumentMoniker": "ConsoleAppDemo\\Program.cs",
-              "ToolTip": "D:\\SourceCode\\repos\\csharpcoban\\ConsoleAppDemo\\Program.cs",
-              "RelativeToolTip": "ConsoleAppDemo\\Program.cs",
-              "ViewState": "AgIAAF8BAAAAAAAAAAAIwGQBAABPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T13:43:54.73Z",
+              "WhenOpened": "2025-03-21T14:55:02.939Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Validate.cs",
-              "DocumentMoniker": "D:\\SourceCode\\repos\\csharpcoban\\CSharpCoban.Common\\Validate.cs",
-              "RelativeDocumentMoniker": "CSharpCoban.Common\\Validate.cs",
-              "ToolTip": "D:\\SourceCode\\repos\\csharpcoban\\CSharpCoban.Common\\Validate.cs",
-              "RelativeToolTip": "CSharpCoban.Common\\Validate.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAA3wDYAAAAYAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\ConsoleAppDemo\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleAppDemo\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\ConsoleAppDemo\\Program.cs",
+              "RelativeToolTip": "ConsoleAppDemo\\Program.cs",
+              "ViewState": "AgIAAHoBAAAAAAAAAAAqwIIBAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T13:42:22.312Z",
+              "WhenOpened": "2025-03-21T14:52:34.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoBan.DataAccess\\Repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "CSharpCoBan.DataAccess\\Repository\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoBan.DataAccess\\Repository\\UserRepository.cs",
+              "RelativeToolTip": "CSharpCoBan.DataAccess\\Repository\\UserRepository.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAiwBIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T14:13:01.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoBan.DataAccess\\Interface\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "CSharpCoBan.DataAccess\\Interface\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoBan.DataAccess\\Interface\\IUserRepository.cs",
+              "RelativeToolTip": "CSharpCoBan.DataAccess\\Interface\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T14:12:31.363Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Account_GetistRequestData.cs",
-              "DocumentMoniker": "D:\\SourceCode\\repos\\csharpcoban\\CSharpCoBan.DataAccess\\DO\\Request\\Account_GetistRequestData.cs",
-              "RelativeDocumentMoniker": "CSharpCoBan.DataAccess\\DO\\Request\\Account_GetistRequestData.cs",
-              "ToolTip": "D:\\SourceCode\\repos\\csharpcoban\\CSharpCoBan.DataAccess\\DO\\Request\\Account_GetistRequestData.cs",
-              "RelativeToolTip": "CSharpCoBan.DataAccess\\DO\\Request\\Account_GetistRequestData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
+              "Title": "AccountRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoBan.DataAccess\\Repository\\AccountRepository.cs",
+              "RelativeDocumentMoniker": "CSharpCoBan.DataAccess\\Repository\\AccountRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoBan.DataAccess\\Repository\\AccountRepository.cs",
+              "RelativeToolTip": "CSharpCoBan.DataAccess\\Repository\\AccountRepository.cs",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAwwJcAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T13:21:39.366Z",
+              "WhenOpened": "2025-03-21T14:11:14.678Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Connection.cs",
-              "DocumentMoniker": "D:\\SourceCode\\repos\\csharpcoban\\CSharpCoBan.DataAccess\\DBHelper\\Connection.cs",
-              "RelativeDocumentMoniker": "CSharpCoBan.DataAccess\\DBHelper\\Connection.cs",
-              "ToolTip": "D:\\SourceCode\\repos\\csharpcoban\\CSharpCoBan.DataAccess\\DBHelper\\Connection.cs",
-              "RelativeToolTip": "CSharpCoBan.DataAccess\\DBHelper\\Connection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T13:26:15.391Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Bai1Manager.cs",
-              "DocumentMoniker": "D:\\SourceCode\\repos\\csharpcoban\\CSharpCoBan.DataAccess\\Bai1Manager.cs",
-              "RelativeDocumentMoniker": "CSharpCoBan.DataAccess\\Bai1Manager.cs",
-              "ToolTip": "D:\\SourceCode\\repos\\csharpcoban\\CSharpCoBan.DataAccess\\Bai1Manager.cs",
-              "RelativeToolTip": "CSharpCoBan.DataAccess\\Bai1Manager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T14:34:22.758Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Bai2Manager.cs",
-              "DocumentMoniker": "D:\\SourceCode\\repos\\csharpcoban\\CSharpCoBan.DataAccess\\Bai2Manager.cs",
-              "RelativeDocumentMoniker": "CSharpCoBan.DataAccess\\Bai2Manager.cs",
-              "ToolTip": "D:\\SourceCode\\repos\\csharpcoban\\CSharpCoBan.DataAccess\\Bai2Manager.cs",
-              "RelativeToolTip": "CSharpCoBan.DataAccess\\Bai2Manager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T14:34:33.872Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "EmployeerBussiness.cs",
-              "DocumentMoniker": "D:\\SourceCode\\repos\\csharpcoban\\CSharpCoBan.DataAccess\\Interface\\EmployeerBussiness.cs",
-              "RelativeDocumentMoniker": "CSharpCoBan.DataAccess\\Interface\\EmployeerBussiness.cs",
-              "ToolTip": "D:\\SourceCode\\repos\\csharpcoban\\CSharpCoBan.DataAccess\\Interface\\EmployeerBussiness.cs",
-              "RelativeToolTip": "CSharpCoBan.DataAccess\\Interface\\EmployeerBussiness.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T14:45:36.827Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IEmployeer.cs",
-              "DocumentMoniker": "D:\\SourceCode\\repos\\csharpcoban\\CSharpCoBan.DataAccess\\Interface\\IEmployeer.cs",
-              "RelativeDocumentMoniker": "CSharpCoBan.DataAccess\\Interface\\IEmployeer.cs",
-              "ToolTip": "D:\\SourceCode\\repos\\csharpcoban\\CSharpCoBan.DataAccess\\Interface\\IEmployeer.cs",
-              "RelativeToolTip": "CSharpCoBan.DataAccess\\Interface\\IEmployeer.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T14:44:08.922Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Animal_Abstract.cs",
-              "DocumentMoniker": "D:\\SourceCode\\repos\\csharpcoban\\CSharpCoBan.DataAccess\\Class\\Animal_Abstract.cs",
-              "RelativeDocumentMoniker": "CSharpCoBan.DataAccess\\Class\\Animal_Abstract.cs",
-              "ToolTip": "D:\\SourceCode\\repos\\csharpcoban\\CSharpCoBan.DataAccess\\Class\\Animal_Abstract.cs",
-              "RelativeToolTip": "CSharpCoBan.DataAccess\\Class\\Animal_Abstract.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T14:18:55.042Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "MyEnum.cs",
-              "DocumentMoniker": "D:\\SourceCode\\repos\\csharpcoban\\CSharpCoBan.DataAccess\\ENUM\\MyEnum.cs",
-              "RelativeDocumentMoniker": "CSharpCoBan.DataAccess\\ENUM\\MyEnum.cs",
-              "ToolTip": "D:\\SourceCode\\repos\\csharpcoban\\CSharpCoBan.DataAccess\\ENUM\\MyEnum.cs",
-              "RelativeToolTip": "CSharpCoBan.DataAccess\\ENUM\\MyEnum.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAlwA8AAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T02:48:31.718Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "D:\\SourceCode\\repos\\csharpcoban\\CSharpCoBan.DataAccess\\Class\\Employee.cs",
-              "RelativeDocumentMoniker": "CSharpCoBan.DataAccess\\Class\\Employee.cs",
-              "ToolTip": "D:\\SourceCode\\repos\\csharpcoban\\CSharpCoBan.DataAccess\\Class\\Employee.cs",
-              "RelativeToolTip": "CSharpCoBan.DataAccess\\Class\\Employee.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T14:06:32.956Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "EmployeerManager.cs",
-              "DocumentMoniker": "D:\\SourceCode\\repos\\csharpcoban\\CSharpCoBan.DataAccess\\EmployeerManager.cs",
-              "RelativeDocumentMoniker": "CSharpCoBan.DataAccess\\EmployeerManager.cs",
-              "ToolTip": "D:\\SourceCode\\repos\\csharpcoban\\CSharpCoBan.DataAccess\\EmployeerManager.cs",
-              "RelativeToolTip": "CSharpCoBan.DataAccess\\EmployeerManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAlwAsAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T14:14:20.814Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Generic.cs",
-              "DocumentMoniker": "D:\\SourceCode\\repos\\csharpcoban\\CSharpCoBan.DataAccess\\Generic\\Generic.cs",
-              "RelativeDocumentMoniker": "CSharpCoBan.DataAccess\\Generic\\Generic.cs",
-              "ToolTip": "D:\\SourceCode\\repos\\csharpcoban\\CSharpCoBan.DataAccess\\Generic\\Generic.cs",
-              "RelativeToolTip": "CSharpCoBan.DataAccess\\Generic\\Generic.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T02:25:54.294Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Bird.cs",
-              "DocumentMoniker": "D:\\SourceCode\\repos\\csharpcoban\\CSharpCoBan.DataAccess\\Class\\Bird.cs",
-              "RelativeDocumentMoniker": "CSharpCoBan.DataAccess\\Class\\Bird.cs",
-              "ToolTip": "D:\\SourceCode\\repos\\csharpcoban\\CSharpCoBan.DataAccess\\Class\\Bird.cs",
-              "RelativeToolTip": "CSharpCoBan.DataAccess\\Class\\Bird.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T14:21:43.947Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Person.cs",
-              "DocumentMoniker": "D:\\SourceCode\\repos\\csharpcoban\\CSharpCoBan.DataAccess\\Person.cs",
-              "RelativeDocumentMoniker": "CSharpCoBan.DataAccess\\Person.cs",
-              "ToolTip": "D:\\SourceCode\\repos\\csharpcoban\\CSharpCoBan.DataAccess\\Person.cs",
-              "RelativeToolTip": "CSharpCoBan.DataAccess\\Person.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T13:51:32.128Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Cow.cs",
-              "DocumentMoniker": "D:\\SourceCode\\repos\\csharpcoban\\CSharpCoBan.DataAccess\\Class\\Cow.cs",
-              "RelativeDocumentMoniker": "CSharpCoBan.DataAccess\\Class\\Cow.cs",
-              "ToolTip": "D:\\SourceCode\\repos\\csharpcoban\\CSharpCoBan.DataAccess\\Class\\Cow.cs",
-              "RelativeToolTip": "CSharpCoBan.DataAccess\\Class\\Cow.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T14:22:30.975Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Employeer.cs",
-              "DocumentMoniker": "D:\\SourceCode\\repos\\csharpcoban\\CSharpCoBan.DataAccess\\STRUCT\\Employeer.cs",
-              "RelativeDocumentMoniker": "CSharpCoBan.DataAccess\\STRUCT\\Employeer.cs",
-              "ToolTip": "D:\\SourceCode\\repos\\csharpcoban\\CSharpCoBan.DataAccess\\STRUCT\\Employeer.cs",
-              "RelativeToolTip": "CSharpCoBan.DataAccess\\STRUCT\\Employeer.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T14:12:11.476Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Function.cs",
-              "DocumentMoniker": "D:\\SourceCode\\repos\\csharpcoban\\CSharpCoBan.DataAccess\\Function.cs",
-              "RelativeDocumentMoniker": "CSharpCoBan.DataAccess\\Function.cs",
-              "ToolTip": "D:\\SourceCode\\repos\\csharpcoban\\CSharpCoBan.DataAccess\\Function.cs",
-              "RelativeToolTip": "CSharpCoBan.DataAccess\\Function.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAAADIAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T13:42:32.022Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "GenericObject.cs",
-              "DocumentMoniker": "D:\\SourceCode\\repos\\csharpcoban\\CSharpCoBan.DataAccess\\Generic\\GenericObject.cs",
-              "RelativeDocumentMoniker": "CSharpCoBan.DataAccess\\Generic\\GenericObject.cs",
-              "ToolTip": "D:\\SourceCode\\repos\\csharpcoban\\CSharpCoBan.DataAccess\\Generic\\GenericObject.cs",
-              "RelativeToolTip": "CSharpCoBan.DataAccess\\Generic\\GenericObject.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAApwAoAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T02:32:12.37Z"
+              "DocumentIndex": 3,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\ConsoleAppDemo\\App.config",
+              "RelativeDocumentMoniker": "ConsoleAppDemo\\App.config",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\ConsoleAppDemo\\App.config",
+              "RelativeToolTip": "ConsoleAppDemo\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAByAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-03-21T14:03:11.269Z",
+              "EditorCaption": ""
             }
           ]
         }

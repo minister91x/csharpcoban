@@ -317,41 +317,74 @@ namespace ConsoleAppDemo
             //var c = new Cow();
             //Console.WriteLine("Cow Eat -> {0} | Sound -> {1}", c.Eat(), c.GetSound());
 
-            var request = new CSharpCoBan.DataAccess.DO.AccountDTO();
-            var repo = new AccountRepository();
+            //var request = new CSharpCoBan.DataAccess.DO.AccountDTO();
+            //var repo = new AccountRepository();
 
-            Console.WriteLine("mời nhập UserName:");
-            request.UserName = Console.ReadLine();
+            //Console.WriteLine("mời nhập UserName:");
+            //request.UserName = Console.ReadLine();
 
-            Console.WriteLine("mời nhập password:");
-            request.PassWord = Console.ReadLine();
-
-
-            Console.WriteLine("Nếu là tài khoản admin nhấn số 1, Không thì nhấn số 0:");
-            var isadmin = Console.ReadLine();
-            var checkIsNumber = CSharpCoban.Common.Validate.CheckNumber(isadmin);
-            if (!checkIsNumber)
-            {
-                Console.WriteLine("sai định dạng số ");
-            }
-
-            request.IsAdmin = Convert.ToInt32(isadmin);
+            //Console.WriteLine("mời nhập password:");
+            //request.PassWord = Console.ReadLine();
 
 
-            var result = repo.Account_Insert(request);
-            if (result < 0)
-            {
-                Console.WriteLine("Thêm mới thất bại");
-            }
+            //Console.WriteLine("Nếu là tài khoản admin nhấn số 1, Không thì nhấn số 0:");
+            //var isadmin = Console.ReadLine();
+            //var checkIsNumber = CSharpCoban.Common.Validate.CheckNumber(isadmin);
+            //if (!checkIsNumber)
+            //{
+            //    Console.WriteLine("sai định dạng số ");
+            //}
+
+            //request.IsAdmin = Convert.ToInt32(isadmin);
+
+
+            //var result = repo.Account_Insert(request);
+            //if (result < 0)
+            //{
+            //    Console.WriteLine("Thêm mới thất bại");
+            //}
 
 
 
 
-            var list = repo.Account_GetList(new CSharpCoBan.DataAccess.DO.Request.Account_GetistRequestData
-            {
-                UserName = ""
-            });
+            //var list = repo.Account_GetList(new CSharpCoBan.DataAccess.DO.Request.Account_GetistRequestData
+            //{
+            //    UserName = ""
+            //});
 
+            //if (list != null)
+            //{
+            //    Console.WriteLine("-------Danh sách tài khoản---------------");
+            //    foreach (var item in list)
+            //    {
+            //        Console.WriteLine("-------------------------------------------------------");
+            //        Console.WriteLine("UserId: {0} |  UserName: {1} | IsAdmin: {2}", item.UserID, item.UserName, item.IsAdmin);
+            //        Console.WriteLine("--------------------------------------------------------");
+            //    }
+            //}
+
+            //Console.WriteLine("mời nhập UserName cần tìm ");
+            //var UserName = Console.ReadLine();
+
+            //var list_search = repo.Account_GetList(new CSharpCoBan.DataAccess.DO.Request.Account_GetistRequestData
+            //{
+            //    UserName = UserName
+            //});
+
+            //if (list_search != null)
+            //{
+            //    Console.WriteLine("-------Danh sách tài khoản đã search---------------");
+            //    foreach (var item in list_search)
+            //    {
+            //        Console.WriteLine("-------------------------------------------------------");
+            //        Console.WriteLine("UserId: {0} |  UserName: {1} | IsAdmin: {2}", item.UserID, item.UserName, item.IsAdmin);
+            //        Console.WriteLine("--------------------------------------------------------");
+            //    }
+            //}
+
+
+            var repoUser = new UserRepository();
+            var list = repoUser.GetList();
             if (list != null)
             {
                 Console.WriteLine("-------Danh sách tài khoản---------------");
@@ -362,26 +395,6 @@ namespace ConsoleAppDemo
                     Console.WriteLine("--------------------------------------------------------");
                 }
             }
-
-            Console.WriteLine("mời nhập UserName cần tìm ");
-            var UserName = Console.ReadLine();
-
-            var list_search = repo.Account_GetList(new CSharpCoBan.DataAccess.DO.Request.Account_GetistRequestData
-            {
-                UserName = UserName
-            });
-
-            if (list_search != null)
-            {
-                Console.WriteLine("-------Danh sách tài khoản đã search---------------");
-                foreach (var item in list_search)
-                {
-                    Console.WriteLine("-------------------------------------------------------");
-                    Console.WriteLine("UserId: {0} |  UserName: {1} | IsAdmin: {2}", item.UserID, item.UserName, item.IsAdmin);
-                    Console.WriteLine("--------------------------------------------------------");
-                }
-            }
-
             Console.ReadKey();
         }
     }

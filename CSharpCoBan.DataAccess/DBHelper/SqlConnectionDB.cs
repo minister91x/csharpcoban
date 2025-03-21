@@ -12,7 +12,7 @@ namespace CSharpCoBan.DataAccess.DBHelper
         SqlConnection connection;
         public override SqlConnection DoConnect()
         {
-            var dich_den = "Server=DESKTOP-G9P0BPM;Database=CSharpCoBan;User Id=sa;Password=123456;";
+            var dich_den = System.Configuration.ConfigurationManager.ConnectionStrings["MyAppDbConnectionString"].ToString() ?? "";
             connection = new SqlConnection(dich_den);
 
             if (connection.State == System.Data.ConnectionState.Closed)
