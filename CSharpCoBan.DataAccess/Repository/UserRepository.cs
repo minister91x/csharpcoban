@@ -12,6 +12,7 @@ namespace CSharpCoBan.DataAccess.Repository
     public class UserRepository : IUserRepository
     {
         MyAppDbContext db = new MyAppDbContext();
+       
         public List<User> GetList()
         {
             try

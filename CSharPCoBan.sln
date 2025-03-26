@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpCoban.Common", "CShar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpCoBan.DataAccess", "CSharpCoBan.DataAccess\CSharpCoBan.DataAccess.csproj", "{9D95584C-EF03-45E8-89C8-FDDF73218485}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCore.API", "NetCore.API\NetCore.API.csproj", "{FDD3CCBE-6DDC-4075-BE3E-A733037083E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCore.WebApp", "NetCore.WebApp\NetCore.WebApp.csproj", "{014D2EC8-C3B3-41BF-B84B-A08834B1DA8D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{9D95584C-EF03-45E8-89C8-FDDF73218485}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D95584C-EF03-45E8-89C8-FDDF73218485}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D95584C-EF03-45E8-89C8-FDDF73218485}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDD3CCBE-6DDC-4075-BE3E-A733037083E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDD3CCBE-6DDC-4075-BE3E-A733037083E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDD3CCBE-6DDC-4075-BE3E-A733037083E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDD3CCBE-6DDC-4075-BE3E-A733037083E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{014D2EC8-C3B3-41BF-B84B-A08834B1DA8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{014D2EC8-C3B3-41BF-B84B-A08834B1DA8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{014D2EC8-C3B3-41BF-B84B-A08834B1DA8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{014D2EC8-C3B3-41BF-B84B-A08834B1DA8D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
