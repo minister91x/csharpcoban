@@ -1,3 +1,5 @@
+﻿using NetCore.API.MiddleWare;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -16,8 +18,18 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+//app.Run(async context =>
+//{
+//    await context.Response.WriteAsync("Hello world!");
+//});
+//app.UseMiddleware<MyCustomMiddleware>();
+
+
 app.UseAuthorization();
 
 app.MapControllers();
+
+app.UseMyMiddleware(); // tự mình định nghĩa middleware
+
 
 app.Run();
