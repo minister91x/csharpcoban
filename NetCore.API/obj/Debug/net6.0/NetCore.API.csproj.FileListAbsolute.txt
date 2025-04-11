@@ -35,3 +35,5 @@ C:\Users\Admin\source\repos\csharpcoban\NetCore.API\obj\Debug\net6.0\refint\NetC
 C:\Users\Admin\source\repos\csharpcoban\NetCore.API\obj\Debug\net6.0\NetCore.API.pdb
 C:\Users\Admin\source\repos\csharpcoban\NetCore.API\obj\Debug\net6.0\NetCore.API.genruntimeconfig.cache
 C:\Users\Admin\source\repos\csharpcoban\NetCore.API\obj\Debug\net6.0\ref\NetCore.API.dll
+C:\Users\Admin\Source\Repos\csharpcoban\NetCore.API\bin\Debug\net6.0\CSharpCoban.DataAccess.Netcore.dll
+C:\Users\Admin\Source\Repos\csharpcoban\NetCore.API\bin\Debug\net6.0\CSharpCoban.DataAccess.Netcore.pdb

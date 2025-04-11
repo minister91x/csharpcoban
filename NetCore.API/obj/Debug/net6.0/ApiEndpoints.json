@@ -1,5 +1,15 @@
 [
   {
+    "ContainingType": "NetCore.API.Controllers.AccountController",
+    "Method": "Account_GetAll",
+    "RelativePath": "api/Account/Account_GetAll",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "NetCore.API.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

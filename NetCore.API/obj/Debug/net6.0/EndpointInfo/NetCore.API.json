@@ -5,6 +5,18 @@
     "version": "1.0"
   },
   "paths": {
+    "/api/Account/Account_GetAll": {
+      "post": {
+        "tags": [
+          "Account"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/WeatherForecast": {
       "get": {
         "tags": [

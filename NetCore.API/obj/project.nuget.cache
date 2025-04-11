@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yAwGeNHraH4=",
+  "dgSpecHash": "ilsPINY0wUc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\NetCore.API\\NetCore.API.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\Source\\Repos\\csharpcoban\\NetCore.API\\NetCore.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
