@@ -10,3 +10,6 @@ C:\Users\Admin\Source\Repos\csharpcoban\CSharpCoban.DataAccess.Netcore\obj\Debug
 C:\Users\Admin\Source\Repos\csharpcoban\CSharpCoban.DataAccess.Netcore\obj\Debug\net6.0\refint\CSharpCoban.DataAccess.Netcore.dll
 C:\Users\Admin\Source\Repos\csharpcoban\CSharpCoban.DataAccess.Netcore\obj\Debug\net6.0\CSharpCoban.DataAccess.Netcore.pdb
 C:\Users\Admin\Source\Repos\csharpcoban\CSharpCoban.DataAccess.Netcore\obj\Debug\net6.0\ref\CSharpCoban.DataAccess.Netcore.dll
+C:\Users\Admin\source\repos\csharpcoban\CSharpCoban.DataAccess.Netcore\bin\Debug\net6.0\CSharpCoban.DataAccess.Netcore.runtimeconfig.json
+C:\Users\Admin\source\repos\csharpcoban\CSharpCoban.DataAccess.Netcore\obj\Debug\net6.0\CSharpCoban.DataAccess.Netcore.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\csharpcoban\CSharpCoban.DataAccess.Netcore\obj\Debug\net6.0\CSharpCoban.DataAccess.Netcore.genruntimeconfig.cache

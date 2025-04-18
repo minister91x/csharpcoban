@@ -1,12 +1,44 @@
 [
   {
     "ContainingType": "NetCore.API.Controllers.AccountController",
+    "Method": "Account_Delete",
+    "RelativePath": "api/Account/Account_Delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestData",
+        "Type": "CSharpCoban.DataAccess.Netcore.DataObject.AccountDelete_RequestData",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NetCore.API.Controllers.AccountController",
     "Method": "Account_GetAll",
     "RelativePath": "api/Account/Account_GetAll",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NetCore.API.Controllers.AccountController",
+    "Method": "Account_Update",
+    "RelativePath": "api/Account/Account_Update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestData",
+        "Type": "CSharpCoban.DataAccess.Netcore.DataObject.AccountUpdate_RequestData",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {
