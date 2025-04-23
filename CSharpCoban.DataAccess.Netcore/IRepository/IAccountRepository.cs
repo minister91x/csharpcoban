@@ -9,6 +9,7 @@ namespace CSharpCoban.DataAccess.Netcore.IRepository
 {
     public interface IAccountRepository
     {
+        Task<Acccount> Account_Login(AccountLogin_RequestData requestData);
         Task<List<Acccount>> Acccounts_GetAll();
         Task<ReturnData> Account_Delete(AccountDelete_RequestData requestData);
         Task<ReturnData> Account_Update(AccountUpdate_RequestData requestData);

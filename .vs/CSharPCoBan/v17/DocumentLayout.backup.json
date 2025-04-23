@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FDD3CCBE-6DDC-4075-BE3E-A733037083E7}|NetCore.API\\NetCore.API.csproj|c:\\users\\admin\\source\\repos\\csharpcoban\\netcore.api\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDD3CCBE-6DDC-4075-BE3E-A733037083E7}|NetCore.API\\NetCore.API.csproj|solutionrelative:netcore.api\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C4D9A867-C33E-4EFC-937F-2E024E9EBE19}|CSharpCoban.DataAccess.Netcore\\CSharpCoban.DataAccess.Netcore.csproj|c:\\users\\admin\\source\\repos\\csharpcoban\\csharpcoban.dataaccess.netcore\\unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C4D9A867-C33E-4EFC-937F-2E024E9EBE19}|CSharpCoban.DataAccess.Netcore\\CSharpCoban.DataAccess.Netcore.csproj|solutionrelative:csharpcoban.dataaccess.netcore\\unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDD3CCBE-6DDC-4075-BE3E-A733037083E7}|NetCore.API\\NetCore.API.csproj|c:\\users\\admin\\source\\repos\\csharpcoban\\netcore.api\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDD3CCBE-6DDC-4075-BE3E-A733037083E7}|NetCore.API\\NetCore.API.csproj|solutionrelative:netcore.api\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C4D9A867-C33E-4EFC-937F-2E024E9EBE19}|CSharpCoban.DataAccess.Netcore\\CSharpCoban.DataAccess.Netcore.csproj|c:\\users\\admin\\source\\repos\\csharpcoban\\csharpcoban.dataaccess.netcore\\unitofwork\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -118,7 +118,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -182,26 +182,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "UnitOfWork.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoban.DataAccess.Netcore\\UnitOfWork\\UnitOfWork.cs",
               "RelativeDocumentMoniker": "CSharpCoban.DataAccess.Netcore\\UnitOfWork\\UnitOfWork.cs",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoban.DataAccess.Netcore\\UnitOfWork\\UnitOfWork.cs",
               "RelativeToolTip": "CSharpCoban.DataAccess.Netcore\\UnitOfWork\\UnitOfWork.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAgwA8AAABCAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA8wBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-18T13:32:08.365Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\NetCore.API\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "NetCore.API\\Controllers\\AccountController.cs",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\NetCore.API\\Controllers\\AccountController.cs",
               "RelativeToolTip": "NetCore.API\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAQwBsAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwBkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-11T14:13:38.751Z",
               "EditorCaption": ""

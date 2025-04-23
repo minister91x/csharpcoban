@@ -63,6 +63,14 @@ namespace CSharpCoban.DataAccess.Netcore.Repository
             
         }
 
+        public async Task<Acccount> Account_Login(AccountLogin_RequestData requestData)
+        {
+           return  _dbContext.account
+                .Where(x => x.UserName == requestData.UserName 
+                && x.Password == requestData.Password)
+                .FirstOrDefault();
+        }
+
         public async Task<ReturnData> Account_Update(AccountUpdate_RequestData requestData)
         {
             var result = new ReturnData();

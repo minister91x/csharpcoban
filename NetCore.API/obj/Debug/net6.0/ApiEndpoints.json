@@ -27,6 +27,22 @@
   },
   {
     "ContainingType": "NetCore.API.Controllers.AccountController",
+    "Method": "Account_Login",
+    "RelativePath": "api/Account/Account_Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestData",
+        "Type": "CSharpCoban.DataAccess.Netcore.DataObject.AccountLogin_RequestData",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NetCore.API.Controllers.AccountController",
     "Method": "Account_Update",
     "RelativePath": "api/Account/Account_Update",
     "HttpMethod": "POST",
