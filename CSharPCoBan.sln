@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCore.WebApp", "NetCore.W
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpCoban.DataAccess.Netcore", "CSharpCoban.DataAccess.Netcore\CSharpCoban.DataAccess.Netcore.csproj", "{C4D9A867-C33E-4EFC-937F-2E024E9EBE19}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpCoBan.CommonNetCore", "CSharpCoBan.CommonNetCore\CSharpCoBan.CommonNetCore.csproj", "{83458E44-71B1-46CC-9AA6-7A3ACF022351}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{C4D9A867-C33E-4EFC-937F-2E024E9EBE19}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4D9A867-C33E-4EFC-937F-2E024E9EBE19}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4D9A867-C33E-4EFC-937F-2E024E9EBE19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83458E44-71B1-46CC-9AA6-7A3ACF022351}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83458E44-71B1-46CC-9AA6-7A3ACF022351}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83458E44-71B1-46CC-9AA6-7A3ACF022351}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83458E44-71B1-46CC-9AA6-7A3ACF022351}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

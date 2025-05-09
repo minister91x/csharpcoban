@@ -7,6 +7,7 @@ using CSharpCoban.DataAccess.Netcore.UnitOfWork;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
+using NetCore.API.Filter;
 
 namespace NetCore.API.Controllers
 {
@@ -76,6 +77,7 @@ namespace NetCore.API.Controllers
         }
 
         [HttpPost("Account_GetAll")]
+        [CSharpCoBanAuthorizeAttribute()]
         public async Task<IActionResult> Account_GetAll()
         {
             try
@@ -96,6 +98,7 @@ namespace NetCore.API.Controllers
         }
 
         [HttpPost("Account_Delete")]
+        [CSharpCoBanAuthorizeAttribute()]
         public async Task<IActionResult> Account_Delete([FromBody] AccountDelete_RequestData requestData)
         {
             try
@@ -114,6 +117,7 @@ namespace NetCore.API.Controllers
         }
 
         [HttpPost("Account_Update")]
+        [CSharpCoBanAuthorizeAttribute()]
         public async Task<IActionResult> Account_Update([FromBody] AccountUpdate_RequestData requestData)
         {
             try
@@ -155,6 +159,9 @@ namespace NetCore.API.Controllers
 
             return token;
         }
+
+        // var identity = context.HttpContext.User.Identity as ClaimsIdentity;
+
 
     }
 }

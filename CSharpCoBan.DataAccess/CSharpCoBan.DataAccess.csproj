@@ -69,6 +69,7 @@
     <Compile Include="DO\AccountDTO.cs" />
     <Compile Include="DO\Request\Account_GetistRequestData.cs" />
     <Compile Include="DO\User.cs" />
+    <Compile Include="DO\UserModel.cs" />
     <Compile Include="EntitesFrameWork\MyAppDbContext.cs" />
     <Compile Include="Interface\EmployeerBussiness.cs" />
     <Compile Include="ENUM\MyEnum.cs" />

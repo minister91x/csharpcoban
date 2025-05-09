@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using CSharpCoban.DataAccess.Netcore.DataObject;
 using CSharpCoban.DataAccess.Netcore.EfCore;
 using CSharpCoban.DataAccess.Netcore.IRepository;
+using CSharpCoBan.CommonNetCore;
 
 namespace CSharpCoban.DataAccess.Netcore.Repository
 {
@@ -65,9 +66,10 @@ namespace CSharpCoban.DataAccess.Netcore.Repository
 
         public async Task<Acccount> Account_Login(AccountLogin_RequestData requestData)
         {
-           return  _dbContext.account
+            var hashPassword = Security.ComputeSha256Hash(requestData.Password);
+            return  _dbContext.account
                 .Where(x => x.UserName == requestData.UserName 
-                && x.Password == requestData.Password)
+                && x.Password == hashPassword)
                 .FirstOrDefault();
         }
 

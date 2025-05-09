@@ -1,0 +1,12 @@
+C:\Users\Admin\source\repos\csharpcoban\CSharpCoBan.CommonNetCore\bin\Debug\net6.0\CSharpCoBan.CommonNetCore.deps.json
+C:\Users\Admin\source\repos\csharpcoban\CSharpCoBan.CommonNetCore\bin\Debug\net6.0\CSharpCoBan.CommonNetCore.dll
+C:\Users\Admin\source\repos\csharpcoban\CSharpCoBan.CommonNetCore\bin\Debug\net6.0\CSharpCoBan.CommonNetCore.pdb
+C:\Users\Admin\source\repos\csharpcoban\CSharpCoBan.CommonNetCore\obj\Debug\net6.0\CSharpCoBan.CommonNetCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\csharpcoban\CSharpCoBan.CommonNetCore\obj\Debug\net6.0\CSharpCoBan.CommonNetCore.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\csharpcoban\CSharpCoBan.CommonNetCore\obj\Debug\net6.0\CSharpCoBan.CommonNetCore.AssemblyInfo.cs
+C:\Users\Admin\source\repos\csharpcoban\CSharpCoBan.CommonNetCore\obj\Debug\net6.0\CSharpCoBan.CommonNetCore.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\csharpcoban\CSharpCoBan.CommonNetCore\obj\Debug\net6.0\CSharpCoBan.CommonNetCore.sourcelink.json
+C:\Users\Admin\source\repos\csharpcoban\CSharpCoBan.CommonNetCore\obj\Debug\net6.0\CSharpCoBan.CommonNetCore.dll
+C:\Users\Admin\source\repos\csharpcoban\CSharpCoBan.CommonNetCore\obj\Debug\net6.0\refint\CSharpCoBan.CommonNetCore.dll
+C:\Users\Admin\source\repos\csharpcoban\CSharpCoBan.CommonNetCore\obj\Debug\net6.0\CSharpCoBan.CommonNetCore.pdb
+C:\Users\Admin\source\repos\csharpcoban\CSharpCoBan.CommonNetCore\obj\Debug\net6.0\ref\CSharpCoBan.CommonNetCore.dll

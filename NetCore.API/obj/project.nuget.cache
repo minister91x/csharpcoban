@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VuCqKbJkn34=",
+  "dgSpecHash": "FuSzFlT89TE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\Source\\Repos\\csharpcoban\\NetCore.API\\NetCore.API.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\NetCore.API\\NetCore.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.36\\microsoft.aspnetcore.authentication.jwtbearer.6.0.36.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

@@ -775,6 +775,16 @@
             "rid": "win"
           }
         }
+      },
+      "CSharpCoBan.CommonNetCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/CSharpCoBan.CommonNetCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CSharpCoBan.CommonNetCore.dll": {}
+        }
       }
     }
   },
@@ -2032,10 +2042,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "CSharpCoBan.CommonNetCore/1.0.0": {
+      "type": "project",
+      "path": "../CSharpCoBan.CommonNetCore/CSharpCoBan.CommonNetCore.csproj",
+      "msbuildProject": "../CSharpCoBan.CommonNetCore/CSharpCoBan.CommonNetCore.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "CSharpCoBan.CommonNetCore >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 6.0.36",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.36",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.36"
@@ -2072,7 +2088,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoBan.CommonNetCore\\CSharpCoBan.CommonNetCore.csproj": {
+              "projectPath": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoBan.CommonNetCore\\CSharpCoBan.CommonNetCore.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
