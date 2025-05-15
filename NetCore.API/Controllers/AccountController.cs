@@ -77,7 +77,7 @@ namespace NetCore.API.Controllers
         }
 
         [HttpPost("Account_GetAll")]
-        [CSharpCoBanAuthorizeAttribute()]
+        [CSharpCoBanAuthorizeAttribute("Account_GetAll","ISVIEWS")]
         public async Task<IActionResult> Account_GetAll()
         {
             try
@@ -98,7 +98,7 @@ namespace NetCore.API.Controllers
         }
 
         [HttpPost("Account_Delete")]
-        [CSharpCoBanAuthorizeAttribute()]
+        [CSharpCoBanAuthorizeAttribute("Account_Delete", "ISDELETE")]
         public async Task<IActionResult> Account_Delete([FromBody] AccountDelete_RequestData requestData)
         {
             try
@@ -117,7 +117,7 @@ namespace NetCore.API.Controllers
         }
 
         [HttpPost("Account_Update")]
-        [CSharpCoBanAuthorizeAttribute()]
+        [CSharpCoBanAuthorizeAttribute("Account_Update", "ISUPDATE")]
         public async Task<IActionResult> Account_Update([FromBody] AccountUpdate_RequestData requestData)
         {
             try

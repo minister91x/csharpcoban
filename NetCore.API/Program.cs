@@ -40,6 +40,8 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IAccountRepository, AccountRepository>();
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped<IAccountGenericRepository, AccountGenericRepository>();
+builder.Services.AddScoped<IFunctionRepository, FunctionRepository>();
+builder.Services.AddScoped<IPermissionRepository, PermissionRepository>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

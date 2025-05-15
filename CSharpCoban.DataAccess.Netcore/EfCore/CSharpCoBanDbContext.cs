@@ -19,5 +19,7 @@ namespace CSharpCoban.DataAccess.Netcore.EfCore
         }
 
         public DbSet<Acccount> account { get; set; } = null!;
+        public DbSet<Function> function { get; set; } = null!;
+        public DbSet<Permission> permission { get; set; } = null!;
     }
 }
