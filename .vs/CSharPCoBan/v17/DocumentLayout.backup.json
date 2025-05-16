@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C4D9A867-C33E-4EFC-937F-2E024E9EBE19}|CSharpCoban.DataAccess.Netcore\\CSharpCoban.DataAccess.Netcore.csproj|c:\\users\\admin\\source\\repos\\csharpcoban\\csharpcoban.dataaccess.netcore\\efcore\\csharpcobandbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4D9A867-C33E-4EFC-937F-2E024E9EBE19}|CSharpCoban.DataAccess.Netcore\\CSharpCoban.DataAccess.Netcore.csproj|solutionrelative:csharpcoban.dataaccess.netcore\\efcore\\csharpcobandbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FDD3CCBE-6DDC-4075-BE3E-A733037083E7}|NetCore.API\\NetCore.API.csproj|c:\\users\\admin\\source\\repos\\csharpcoban\\netcore.api\\filter\\csharpcobanauthorizeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FDD3CCBE-6DDC-4075-BE3E-A733037083E7}|NetCore.API\\NetCore.API.csproj|solutionrelative:netcore.api\\filter\\csharpcobanauthorizeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FDD3CCBE-6DDC-4075-BE3E-A733037083E7}|NetCore.API\\NetCore.API.csproj|c:\\users\\admin\\source\\repos\\csharpcoban\\netcore.api\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FDD3CCBE-6DDC-4075-BE3E-A733037083E7}|NetCore.API\\NetCore.API.csproj|solutionrelative:netcore.api\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4D9A867-C33E-4EFC-937F-2E024E9EBE19}|CSharpCoban.DataAccess.Netcore\\CSharpCoban.DataAccess.Netcore.csproj|c:\\users\\admin\\source\\repos\\csharpcoban\\csharpcoban.dataaccess.netcore\\efcore\\csharpcobandbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4D9A867-C33E-4EFC-937F-2E024E9EBE19}|CSharpCoban.DataAccess.Netcore\\CSharpCoban.DataAccess.Netcore.csproj|solutionrelative:csharpcoban.dataaccess.netcore\\efcore\\csharpcobandbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FDD3CCBE-6DDC-4075-BE3E-A733037083E7}|NetCore.API\\NetCore.API.csproj|c:\\users\\admin\\source\\repos\\csharpcoban\\netcore.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -170,7 +170,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -208,20 +208,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "CSharpCoBanAuthorizeAttribute.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\NetCore.API\\Filter\\CSharpCoBanAuthorizeAttribute.cs",
               "RelativeDocumentMoniker": "NetCore.API\\Filter\\CSharpCoBanAuthorizeAttribute.cs",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\NetCore.API\\Filter\\CSharpCoBanAuthorizeAttribute.cs",
               "RelativeToolTip": "NetCore.API\\Filter\\CSharpCoBanAuthorizeAttribute.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAWwDQAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAWwD4AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-15T13:45:34.226Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\NetCore.API\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "NetCore.API\\Controllers\\AccountController.cs",
@@ -234,7 +234,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "CSharpCoBanDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoban.DataAccess.Netcore\\EfCore\\CSharpCoBanDbContext.cs",
               "RelativeDocumentMoniker": "CSharpCoban.DataAccess.Netcore\\EfCore\\CSharpCoBanDbContext.cs",

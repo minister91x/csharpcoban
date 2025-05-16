@@ -82,3 +82,8 @@ C:\Users\Admin\source\repos\csharpcoban\NetCore.API\bin\Debug\net6.0\runtimes\wi
 C:\Users\Admin\Source\Repos\csharpcoban\NetCore.API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\Admin\source\repos\csharpcoban\NetCore.API\bin\Debug\net6.0\CSharpCoBan.CommonNetCore.dll
 C:\Users\Admin\source\repos\csharpcoban\NetCore.API\bin\Debug\net6.0\CSharpCoBan.CommonNetCore.pdb
+C:\Users\Admin\source\repos\csharpcoban\NetCore.API\bin\Debug\net6.0\Microsoft.Extensions.Caching.StackExchangeRedis.dll
+C:\Users\Admin\source\repos\csharpcoban\NetCore.API\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Admin\source\repos\csharpcoban\NetCore.API\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Admin\source\repos\csharpcoban\NetCore.API\bin\Debug\net6.0\Pipelines.Sockets.Unofficial.dll
+C:\Users\Admin\source\repos\csharpcoban\NetCore.API\bin\Debug\net6.0\StackExchange.Redis.dll

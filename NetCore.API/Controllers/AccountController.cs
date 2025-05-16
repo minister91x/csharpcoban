@@ -6,8 +6,10 @@ using CSharpCoban.DataAccess.Netcore.IRepository;
 using CSharpCoban.DataAccess.Netcore.UnitOfWork;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Caching.Distributed;
 using Microsoft.IdentityModel.Tokens;
 using NetCore.API.Filter;
+using Newtonsoft.Json;
 
 namespace NetCore.API.Controllers
 {
@@ -24,10 +26,14 @@ namespace NetCore.API.Controllers
         private IConfiguration _configuration;
         private readonly IUnitOfWork _unitOfWork;
 
-        public AccountController(IUnitOfWork unitOfWork, IConfiguration configuration)
+        private readonly IDistributedCache _cache;
+
+
+        public AccountController(IUnitOfWork unitOfWork, IConfiguration configuration, IDistributedCache cache)
         {
             _unitOfWork = unitOfWork;
             _configuration = configuration;
+            _cache = cache;
         }
         [HttpPost("Account_Login")]
         public async Task<IActionResult> Account_Login(AccountLogin_RequestData requestData)
@@ -73,17 +79,40 @@ namespace NetCore.API.Controllers
 
                 throw ex;
             }
-           
+
         }
 
         [HttpPost("Account_GetAll")]
-        [CSharpCoBanAuthorizeAttribute("Account_GetAll","ISVIEWS")]
+       // [CSharpCoBanAuthorizeAttribute("Account_GetAll", "ISVIEWS")]
         public async Task<IActionResult> Account_GetAll()
         {
+            var result = new List<Acccount>();
             try
             {
                 //var result = await _accountRepository.Acccounts_GetAll();
-                var result = await _unitOfWork._accountGenericRepository.GetAll();
+                //Lần đầu thì thì vào database để lấy dữ liệu
+
+                // kiểm tra trong caching 
+                var cacheKey = "GetAll_KeyCaching";
+                var cacheData = await _cache.GetStringAsync(cacheKey);
+
+                if (cacheData != null)
+                {
+                    // nếu trong caching có dữ liệu thì lấy luôn
+                    result = JsonConvert.DeserializeObject<List<Acccount>>(cacheData);
+                    return Ok(result);
+                }
+
+                // nếu trong caceh không có thì vào db để lấy dữ liệu
+                result = await _unitOfWork._accountGenericRepository.GetAll();
+
+                // set dữ liệu vào cache
+                var options = new DistributedCacheEntryOptions()
+                    .SetSlidingExpiration(TimeSpan.FromMinutes(1))
+                    .SetAbsoluteExpiration(DateTime.Now.AddMinutes(1));
+
+                await _cache.SetStringAsync(cacheKey, JsonConvert.SerializeObject(result), options);
+
                 if (result == null)
                 {
                     return NotFound();

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CSharpCoBan.CommonNetCore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+af016f507a3e46ff82729b0bcef1d5beeb9bb527")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a6911addd5bff42ba797fa80bce28371429d5235")]
 [assembly: System.Reflection.AssemblyProductAttribute("CSharpCoBan.CommonNetCore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CSharpCoBan.CommonNetCore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
