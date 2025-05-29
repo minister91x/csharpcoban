@@ -48,46 +48,50 @@ namespace NetCore.API.Filter
 
                 }
 
+                UserManagerSession.AccountID = userId;
+
                 // Laays functionID
-
-                var function = _dbcontext.function.FirstOrDefault(x => x.FuctionCode == _functionCode);
-                if (function == null || function.FunctionID <= 0)
+                if (!string.IsNullOrEmpty(_permission))
                 {
-                    context.HttpContext.Response.ContentType = "application/json";
-                    context.HttpContext.Response.StatusCode = (int)System.Net.HttpStatusCode.Unauthorized;
-                    context.Result = new JsonResult(new
+                    var function = _dbcontext.function.FirstOrDefault(x => x.FuctionCode == _functionCode);
+                    if (function == null || function.FunctionID <= 0)
                     {
-                        ReturnCode = System.Net.HttpStatusCode.Unauthorized,
-                        ReturnMessage = "Chức năng không tồn tại"
-                    });
-                }
+                        context.HttpContext.Response.ContentType = "application/json";
+                        context.HttpContext.Response.StatusCode = (int)System.Net.HttpStatusCode.Unauthorized;
+                        context.Result = new JsonResult(new
+                        {
+                            ReturnCode = System.Net.HttpStatusCode.Unauthorized,
+                            ReturnMessage = "Chức năng không tồn tại"
+                        });
+                    }
 
 
-                // Check permission
+                    // Check permission
 
-                var permission = _dbcontext.permission.FirstOrDefault(x => x.AccountID == userId
-                && x.FunctionID == function.FunctionID);
+                    var permission = _dbcontext.permission.FirstOrDefault(x => x.AccountID == userId
+                    && x.FunctionID == function.FunctionID);
 
-                if (permission == null)
-                {
-                    context.HttpContext.Response.ContentType = "application/json";
-                    context.HttpContext.Response.StatusCode = (int)System.Net.HttpStatusCode.Unauthorized;
-                    context.Result = new JsonResult(new
+                    if (permission == null)
                     {
-                        ReturnCode = System.Net.HttpStatusCode.Unauthorized,
-                        ReturnMessage = "Bạn không có quyền thực hiện chức năng này"
-                    });
-                }
+                        context.HttpContext.Response.ContentType = "application/json";
+                        context.HttpContext.Response.StatusCode = (int)System.Net.HttpStatusCode.Unauthorized;
+                        context.Result = new JsonResult(new
+                        {
+                            ReturnCode = System.Net.HttpStatusCode.Unauthorized,
+                            ReturnMessage = "Bạn không có quyền thực hiện chức năng này"
+                        });
+                    }
 
-                if (_permission == "ISVIEWS" && permission != null && permission.IsView == 0)
-                {
-                    context.HttpContext.Response.ContentType = "application/json";
-                    context.HttpContext.Response.StatusCode = (int)System.Net.HttpStatusCode.Unauthorized;
-                    context.Result = new JsonResult(new
+                    if (_permission == "ISVIEWS" && permission != null && permission.IsView == 0)
                     {
-                        ReturnCode = System.Net.HttpStatusCode.Unauthorized,
-                        ReturnMessage = "Bạn không có quyền xem chức năng này"
-                    });
+                        context.HttpContext.Response.ContentType = "application/json";
+                        context.HttpContext.Response.StatusCode = (int)System.Net.HttpStatusCode.Unauthorized;
+                        context.Result = new JsonResult(new
+                        {
+                            ReturnCode = System.Net.HttpStatusCode.Unauthorized,
+                            ReturnMessage = "Bạn không có quyền xem chức năng này"
+                        });
+                    }
                 }
 
             }

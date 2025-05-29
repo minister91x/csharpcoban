@@ -1,8 +1,8 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "title": "NetCore.API",
-    "version": "1.0"
+    "title": "BE_2025 API",
+    "version": "v1"
   },
   "paths": {
     "/api/Account/Account_Login": {
@@ -41,6 +41,37 @@
         "tags": [
           "Account"
         ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Account/Account_LogOut": {
+      "post": {
+        "tags": [
+          "Account"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Account_LogOutRequestData"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Account_LogOutRequestData"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Account_LogOutRequestData"
+              }
+            }
+          }
+        },
         "responses": {
           "200": {
             "description": "Success"
@@ -172,6 +203,14 @@
           "password": {
             "type": "string",
             "nullable": true
+          },
+          "deviceID": {
+            "type": "string",
+            "nullable": true
+          },
+          "locationID": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -184,6 +223,16 @@
             "format": "int32"
           },
           "address": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Account_LogOutRequestData": {
+        "type": "object",
+        "properties": {
+          "deviceID": {
             "type": "string",
             "nullable": true
           }
@@ -213,6 +262,19 @@
         },
         "additionalProperties": false
       }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "http",
+        "description": "Please enter token",
+        "scheme": "bearer",
+        "bearerFormat": "JWT"
+      }
     }
-  }
+  },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ]
 }

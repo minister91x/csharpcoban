@@ -66,6 +66,26 @@ namespace NetCore.API.Controllers
                 var token = new JwtSecurityTokenHandler().WriteToken(newToken);
 
 
+                // bước 4: Lưu token vào database/Redis (nếu cần thiết)
+
+                var user_sessions = new User_Sessions
+                {
+                    AccountID = resultLogin.AccountID,
+                    Token = token,
+                    DeviceID = requestData.DeviceID,
+                    ExpriredTime = new JwtSecurityToken(token).ValidTo
+                };
+
+                var keyCaching = $"User_sessions_{resultLogin.AccountID}_{requestData.DeviceID}";
+                var options_cache = new DistributedCacheEntryOptions
+                {
+                    AbsoluteExpiration = DateTime.Now.AddMinutes(30) // Thời gian hết hạn của token
+                };
+
+                var data_cache = JsonConvert.SerializeObject(user_sessions);
+
+                await _cache.SetStringAsync(keyCaching, data_cache, options_cache);
+
                 // Bước 4: Trao kết quả cho client
                 result.ResponseCode = 1;
                 result.ResponseMessage = "Login Successful";
@@ -83,7 +103,7 @@ namespace NetCore.API.Controllers
         }
 
         [HttpPost("Account_GetAll")]
-       // [CSharpCoBanAuthorizeAttribute("Account_GetAll", "ISVIEWS")]
+        // [CSharpCoBanAuthorizeAttribute("Account_GetAll", "ISVIEWS")]
         public async Task<IActionResult> Account_GetAll()
         {
             var result = new List<Acccount>();
@@ -120,6 +140,33 @@ namespace NetCore.API.Controllers
                 return Ok(result);
             }
             catch (Exception)
+            {
+
+                throw;
+            }
+        }
+
+
+        [HttpPost("Account_LogOut")]
+        [CSharpCoBanAuthorizeAttribute("Account_LogOut", "")]
+        public async Task<ActionResult> Account_LogOut(Account_LogOutRequestData requestData)
+        {
+            try
+            {
+                // Lấy được AccountID từ Filter 
+               var AccountID = UserManagerSession.AccountID;
+
+                // Lấy DeviceID 
+                // kết hợp User_Session_AccountID_DeviceID // User_Session_3_DEVICE_01
+                var keyCache = "User_sessions_" + AccountID + "_" + requestData.DeviceID;
+
+                // Xóa cái key User_Session_3_DEVICE_01 trong redis
+
+                _cache.Remove(keyCache);
+
+                return Ok(new { mes = "LogOut Thành công !" });
+            }
+            catch (Exception ex)
             {
 
                 throw;

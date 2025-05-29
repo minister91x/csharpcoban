@@ -43,6 +43,22 @@
   },
   {
     "ContainingType": "NetCore.API.Controllers.AccountController",
+    "Method": "Account_LogOut",
+    "RelativePath": "api/Account/Account_LogOut",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestData",
+        "Type": "CSharpCoban.DataAccess.Netcore.DataObject.Account_LogOutRequestData",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NetCore.API.Controllers.AccountController",
     "Method": "Account_Update",
     "RelativePath": "api/Account/Account_Update",
     "HttpMethod": "POST",

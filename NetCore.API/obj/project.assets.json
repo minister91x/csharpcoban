@@ -2769,7 +2769,7 @@
       "projectName": "NetCore.API",
       "projectPath": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\NetCore.API\\NetCore.API.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\NetCore.API\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\Source\\Repos\\csharpcoban\\NetCore.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
