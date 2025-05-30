@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CSharpCoban.DataAccess.Netcore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+69dcf046994a80bcdc7733ccdb847a8361749391")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a19bcb731aaeaf9391e1fe9f77b0f3cd9ee19c5e")]
 [assembly: System.Reflection.AssemblyProductAttribute("CSharpCoban.DataAccess.Netcore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CSharpCoban.DataAccess.Netcore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -10,6 +10,7 @@ using Microsoft.Extensions.Caching.Distributed;
 using Microsoft.IdentityModel.Tokens;
 using NetCore.API.Filter;
 using Newtonsoft.Json;
+using StackExchange.Redis;
 
 namespace NetCore.API.Controllers
 {
@@ -39,14 +40,56 @@ namespace NetCore.API.Controllers
         public async Task<IActionResult> Account_Login(AccountLogin_RequestData requestData)
         {
             var result = new LoginReturnData();
+            var listKey = new List<string>();
             try
             {
+                // Bước 0 :
+
+                // Kết nối đến Redis server (sửa lại nếu bạn dùng host/port khác)
+                ConnectionMultiplexer redis = ConnectionMultiplexer.Connect("localhost:6379");
+
+                // Lấy database (mặc định là DB 0)
+                IDatabase db = redis.GetDatabase();
+
+                // Lấy server object để có thể truy vấn key
+                // Lưu ý: cần biết rõ endpoint để tạo đối tượng server
+                var endpoints = redis.GetEndPoints();
+                IServer server = redis.GetServer(endpoints[0]);
+
+                // Lấy tất cả key (có thể thêm pattern nếu cần)
+                foreach (var key in server.Keys())
+                {
+                    listKey.Add(key.ToString().Substring(0,15));
+                }
+
+
+
                 // bước 1: CheckLogin 
                 var resultLogin = await _unitOfWork._accountRepository.Account_Login(requestData);
                 if (resultLogin == null)
                 {
                     result.ResponseCode = -1;
                     result.ResponseMessage = "Tài khoản không tồn tại";
+                    return Ok(result);
+                }
+
+                // Kiểm tra số lượng Sessison 
+
+                var keySessions = "User_sessions_" + resultLogin.AccountID;
+
+                //  var CountKey = listKey.FindAll(s => s.Equals(keySessions)).Count;
+                var CountKey = 0;
+                if (listKey.Count > 0)
+                {
+                    foreach (var item in listKey)
+                    {
+                        if(item== keySessions) { CountKey++; }
+                    }
+                }
+                if (CountKey >= 2)
+                {
+                    result.ResponseCode = -21;
+                    result.ResponseMessage = "Tài khoản của bạn chỉ được phép đăng nhập trên 02 thiết bị ";
                     return Ok(result);
                 }
 
