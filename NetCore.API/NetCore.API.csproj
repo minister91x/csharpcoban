@@ -19,4 +19,8 @@
     <ProjectReference Include="..\CSharpCoban.DataAccess.Netcore\CSharpCoban.DataAccess.Netcore.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Upload\" />
+  </ItemGroup>
+
 </Project>

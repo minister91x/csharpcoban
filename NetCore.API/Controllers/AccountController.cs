@@ -59,7 +59,7 @@ namespace NetCore.API.Controllers
                 // Lấy tất cả key (có thể thêm pattern nếu cần)
                 foreach (var key in server.Keys())
                 {
-                    listKey.Add(key.ToString().Substring(0,15));
+                    listKey.Add(key.ToString().Substring(0, 15));
                 }
 
 
@@ -83,7 +83,7 @@ namespace NetCore.API.Controllers
                 {
                     foreach (var item in listKey)
                     {
-                        if(item== keySessions) { CountKey++; }
+                        if (item == keySessions) { CountKey++; }
                     }
                 }
                 if (CountKey >= 2)
@@ -197,7 +197,7 @@ namespace NetCore.API.Controllers
             try
             {
                 // Lấy được AccountID từ Filter 
-               var AccountID = UserManagerSession.AccountID;
+                var AccountID = UserManagerSession.AccountID;
 
                 // Lấy DeviceID 
                 // kết hợp User_Session_AccountID_DeviceID // User_Session_3_DEVICE_01
@@ -262,6 +262,59 @@ namespace NetCore.API.Controllers
             }
         }
 
+
+        [HttpPost("Account_UploadImage")]
+        public async Task<IActionResult> Account_UploadImage(Account_UploadImageRequestData requestData)
+        {
+            var returnData = new ReturnData();
+            try
+            {
+                string imgPath = string.Empty;
+                if (requestData == null
+                    || string.IsNullOrEmpty(requestData.Base64ImageString))
+                {
+                    returnData.ResponseCode = -1;
+                    returnData.ResponseMessage = "Dữ liệu đầu vào không hợp lệ";
+                    return Ok(returnData);
+                }
+
+
+                var path = "files"; //Path
+
+                if (!System.IO.Directory.Exists(path))
+                {
+                    System.IO.Directory.CreateDirectory(path);
+                }
+                string imageName = Guid.NewGuid().ToString() + ".png";
+
+
+                //set the image path
+                imgPath = Path.Combine(path, imageName);
+                if (!requestData.Base64ImageString.Contains("data:image"))
+                {
+                    returnData.ResponseCode = -2;
+                    returnData.ResponseMessage = "Dữ liệu đầu vào không hợp lệ";
+                    return Ok(returnData);
+                }
+
+                requestData.Base64ImageString = requestData.Base64ImageString.Substring(requestData.Base64ImageString.LastIndexOf(',') + 1);
+                byte[] imageBytes = Convert.FromBase64String(requestData.Base64ImageString);
+                MemoryStream ms = new MemoryStream(imageBytes, 0, imageBytes.Length);
+                ms.Write(imageBytes, 0, imageBytes.Length);
+                System.Drawing.Image image = System.Drawing.Image.FromStream(ms, true);
+                image.Save(imgPath, System.Drawing.Imaging.ImageFormat.Png);
+
+                returnData.ResponseCode = 1;
+                returnData.ResponseMessage = imageName;
+
+                return Ok(returnData);
+
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, $"Error uploading file: {ex.Message}");
+            }
+        }
 
         private JwtSecurityToken CreateToken(List<Claim> authClaims)
         {

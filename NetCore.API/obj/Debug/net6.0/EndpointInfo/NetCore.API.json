@@ -141,6 +141,37 @@
         }
       }
     },
+    "/api/Account/Account_UploadImage": {
+      "post": {
+        "tags": [
+          "Account"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Account_UploadImageRequestData"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Account_UploadImageRequestData"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Account_UploadImageRequestData"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/WeatherForecast": {
       "get": {
         "tags": [
@@ -233,6 +264,16 @@
         "type": "object",
         "properties": {
           "deviceID": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Account_UploadImageRequestData": {
+        "type": "object",
+        "properties": {
+          "base64ImageString": {
             "type": "string",
             "nullable": true
           }

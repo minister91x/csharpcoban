@@ -2064,9 +2064,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Source\\Repos\\csharpcoban\\CSharpCoban.DataAccess.Netcore\\CSharpCoban.DataAccess.Netcore.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoban.DataAccess.Netcore\\CSharpCoban.DataAccess.Netcore.csproj",
       "projectName": "CSharpCoban.DataAccess.Netcore",
-      "projectPath": "C:\\Users\\Admin\\Source\\Repos\\csharpcoban\\CSharpCoban.DataAccess.Netcore\\CSharpCoban.DataAccess.Netcore.csproj",
+      "projectPath": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoban.DataAccess.Netcore\\CSharpCoban.DataAccess.Netcore.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoban.DataAccess.Netcore\\obj\\",
       "projectStyle": "PackageReference",
@@ -2089,8 +2089,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Admin\\Source\\Repos\\csharpcoban\\CSharpCoBan.CommonNetCore\\CSharpCoBan.CommonNetCore.csproj": {
-              "projectPath": "C:\\Users\\Admin\\Source\\Repos\\csharpcoban\\CSharpCoBan.CommonNetCore\\CSharpCoBan.CommonNetCore.csproj"
+            "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoBan.CommonNetCore\\CSharpCoBan.CommonNetCore.csproj": {
+              "projectPath": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoBan.CommonNetCore\\CSharpCoBan.CommonNetCore.csproj"
             }
           }
         }
