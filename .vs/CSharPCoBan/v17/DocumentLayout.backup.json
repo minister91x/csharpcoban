@@ -3,8 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{60501D20-23AD-40BA-84E7-A00D1A49D87F}|CSharpCoBan.Media\\CSharpCoBan.Media.csproj|c:\\users\\admin\\source\\repos\\csharpcoban\\csharpcoban.media\\controllers\\mediacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60501D20-23AD-40BA-84E7-A00D1A49D87F}|CSharpCoBan.Media\\CSharpCoBan.Media.csproj|solutionrelative:csharpcoban.media\\controllers\\mediacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FDD3CCBE-6DDC-4075-BE3E-A733037083E7}|NetCore.API\\NetCore.API.csproj|c:\\users\\admin\\source\\repos\\csharpcoban\\netcore.api\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FDD3CCBE-6DDC-4075-BE3E-A733037083E7}|NetCore.API\\NetCore.API.csproj|solutionrelative:netcore.api\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDD3CCBE-6DDC-4075-BE3E-A733037083E7}|NetCore.API\\NetCore.API.csproj|c:\\users\\admin\\source\\repos\\csharpcoban\\netcore.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDD3CCBE-6DDC-4075-BE3E-A733037083E7}|NetCore.API\\NetCore.API.csproj|solutionrelative:netcore.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60501D20-23AD-40BA-84E7-A00D1A49D87F}|CSharpCoBan.Media\\CSharpCoBan.Media.csproj|c:\\users\\admin\\source\\repos\\csharpcoban\\csharpcoban.media\\models\\uploadimageresponsedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60501D20-23AD-40BA-84E7-A00D1A49D87F}|CSharpCoBan.Media\\CSharpCoBan.Media.csproj|solutionrelative:csharpcoban.media\\models\\uploadimageresponsedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDD3CCBE-6DDC-4075-BE3E-A733037083E7}|NetCore.API\\NetCore.API.csproj|c:\\users\\admin\\source\\repos\\csharpcoban\\netcore.api\\helper\\uploadhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDD3CCBE-6DDC-4075-BE3E-A733037083E7}|NetCore.API\\NetCore.API.csproj|solutionrelative:netcore.api\\helper\\uploadhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDD3CCBE-6DDC-4075-BE3E-A733037083E7}|NetCore.API\\NetCore.API.csproj|c:\\users\\admin\\source\\repos\\csharpcoban\\netcore.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FDD3CCBE-6DDC-4075-BE3E-A733037083E7}|NetCore.API\\NetCore.API.csproj|solutionrelative:netcore.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDD3CCBE-6DDC-4075-BE3E-A733037083E7}|NetCore.API\\NetCore.API.csproj|c:\\users\\admin\\source\\repos\\csharpcoban\\netcore.api\\models\\user_uploadimagerequestdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDD3CCBE-6DDC-4075-BE3E-A733037083E7}|NetCore.API\\NetCore.API.csproj|solutionrelative:netcore.api\\models\\user_uploadimagerequestdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDD3CCBE-6DDC-4075-BE3E-A733037083E7}|NetCore.API\\NetCore.API.csproj|c:\\users\\admin\\source\\repos\\csharpcoban\\netcore.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDD3CCBE-6DDC-4075-BE3E-A733037083E7}|NetCore.API\\NetCore.API.csproj|solutionrelative:netcore.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83458E44-71B1-46CC-9AA6-7A3ACF022351}|CSharpCoBan.CommonNetCore\\CSharpCoBan.CommonNetCore.csproj|c:\\users\\admin\\source\\repos\\csharpcoban\\csharpcoban.commonnetcore\\security.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83458E44-71B1-46CC-9AA6-7A3ACF022351}|CSharpCoBan.CommonNetCore\\CSharpCoBan.CommonNetCore.csproj|solutionrelative:csharpcoban.commonnetcore\\security.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60501D20-23AD-40BA-84E7-A00D1A49D87F}|CSharpCoBan.Media\\CSharpCoBan.Media.csproj|c:\\users\\admin\\source\\repos\\csharpcoban\\csharpcoban.media\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{60501D20-23AD-40BA-84E7-A00D1A49D87F}|CSharpCoBan.Media\\CSharpCoBan.Media.csproj|solutionrelative:csharpcoban.media\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60501D20-23AD-40BA-84E7-A00D1A49D87F}|CSharpCoBan.Media\\CSharpCoBan.Media.csproj|c:\\users\\admin\\source\\repos\\csharpcoban\\csharpcoban.media\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{60501D20-23AD-40BA-84E7-A00D1A49D87F}|CSharpCoBan.Media\\CSharpCoBan.Media.csproj|solutionrelative:csharpcoban.media\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60501D20-23AD-40BA-84E7-A00D1A49D87F}|CSharpCoBan.Media\\CSharpCoBan.Media.csproj|c:\\users\\admin\\source\\repos\\csharpcoban\\csharpcoban.media\\models\\uploadimagerequestdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60501D20-23AD-40BA-84E7-A00D1A49D87F}|CSharpCoBan.Media\\CSharpCoBan.Media.csproj|solutionrelative:csharpcoban.media\\models\\uploadimagerequestdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C4D9A867-C33E-4EFC-937F-2E024E9EBE19}|CSharpCoban.DataAccess.Netcore\\CSharpCoban.DataAccess.Netcore.csproj|c:\\users\\admin\\source\\repos\\csharpcoban\\csharpcoban.dataaccess.netcore\\dataobject\\account_uploadimagerequestdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,10 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{014D2EC8-C3B3-41BF-B84B-A08834B1DA8D}|NetCore.WebApp\\NetCore.WebApp.csproj|c:\\users\\admin\\source\\repos\\csharpcoban\\netcore.webapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{014D2EC8-C3B3-41BF-B84B-A08834B1DA8D}|NetCore.WebApp\\NetCore.WebApp.csproj|solutionrelative:netcore.webapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FDD3CCBE-6DDC-4075-BE3E-A733037083E7}|NetCore.API\\NetCore.API.csproj|c:\\users\\admin\\source\\repos\\csharpcoban\\netcore.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDD3CCBE-6DDC-4075-BE3E-A733037083E7}|NetCore.API\\NetCore.API.csproj|solutionrelative:netcore.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FDD3CCBE-6DDC-4075-BE3E-A733037083E7}|NetCore.API\\NetCore.API.csproj|c:\\users\\admin\\source\\repos\\csharpcoban\\netcore.api\\filter\\csharpcobanauthorizeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,20 +71,12 @@
       "RelativeMoniker": "D:0:0:{C4D9A867-C33E-4EFC-937F-2E024E9EBE19}|CSharpCoban.DataAccess.Netcore\\CSharpCoban.DataAccess.Netcore.csproj|solutionrelative:csharpcoban.dataaccess.netcore\\dataobject\\accountlogin_requestdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FDD3CCBE-6DDC-4075-BE3E-A733037083E7}|NetCore.API\\NetCore.API.csproj|c:\\users\\admin\\source\\repos\\csharpcoban\\netcore.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{FDD3CCBE-6DDC-4075-BE3E-A733037083E7}|NetCore.API\\NetCore.API.csproj|solutionrelative:netcore.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C4D9A867-C33E-4EFC-937F-2E024E9EBE19}|CSharpCoban.DataAccess.Netcore\\CSharpCoban.DataAccess.Netcore.csproj|c:\\users\\admin\\source\\repos\\csharpcoban\\csharpcoban.dataaccess.netcore\\dataobject\\user_sessions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C4D9A867-C33E-4EFC-937F-2E024E9EBE19}|CSharpCoban.DataAccess.Netcore\\CSharpCoban.DataAccess.Netcore.csproj|solutionrelative:csharpcoban.dataaccess.netcore\\dataobject\\user_sessions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{014D2EC8-C3B3-41BF-B84B-A08834B1DA8D}|NetCore.WebApp\\NetCore.WebApp.csproj|c:\\users\\admin\\source\\repos\\csharpcoban\\netcore.webapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{014D2EC8-C3B3-41BF-B84B-A08834B1DA8D}|NetCore.WebApp\\NetCore.WebApp.csproj|solutionrelative:netcore.webapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83458E44-71B1-46CC-9AA6-7A3ACF022351}|CSharpCoBan.CommonNetCore\\CSharpCoBan.CommonNetCore.csproj|c:\\users\\admin\\source\\repos\\csharpcoban\\csharpcoban.commonnetcore\\security.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{83458E44-71B1-46CC-9AA6-7A3ACF022351}|CSharpCoBan.CommonNetCore\\CSharpCoBan.CommonNetCore.csproj|solutionrelative:csharpcoban.commonnetcore\\security.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C4D9A867-C33E-4EFC-937F-2E024E9EBE19}|CSharpCoban.DataAccess.Netcore\\CSharpCoban.DataAccess.Netcore.csproj|c:\\users\\admin\\source\\repos\\csharpcoban\\csharpcoban.dataaccess.netcore\\efcore\\csharpcobandbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -190,7 +222,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -202,20 +234,163 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Account_UploadImageRequestData.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoban.DataAccess.Netcore\\DataObject\\Account_UploadImageRequestData.cs",
-              "RelativeDocumentMoniker": "CSharpCoban.DataAccess.Netcore\\DataObject\\Account_UploadImageRequestData.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoban.DataAccess.Netcore\\DataObject\\Account_UploadImageRequestData.cs*",
-              "RelativeToolTip": "CSharpCoban.DataAccess.Netcore\\DataObject\\Account_UploadImageRequestData.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAnAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\NetCore.API\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "NetCore.API\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\NetCore.API\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "NetCore.API\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T13:52:38.88Z",
+              "WhenOpened": "2025-06-06T13:47:01.907Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
+              "Title": "UploadHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\NetCore.API\\Helper\\UploadHelper.cs",
+              "RelativeDocumentMoniker": "NetCore.API\\Helper\\UploadHelper.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\NetCore.API\\Helper\\UploadHelper.cs",
+              "RelativeToolTip": "NetCore.API\\Helper\\UploadHelper.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T13:42:18.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\NetCore.API\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "NetCore.API\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\NetCore.API\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "NetCore.API\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAD8BAAAAAAAAAAAiwFMBAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T14:13:38.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MediaController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoBan.Media\\Controllers\\MediaController.cs",
+              "RelativeDocumentMoniker": "CSharpCoBan.Media\\Controllers\\MediaController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoBan.Media\\Controllers\\MediaController.cs",
+              "RelativeToolTip": "CSharpCoBan.Media\\Controllers\\MediaController.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAowEoAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T13:27:10.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\NetCore.API\\appsettings.json",
+              "RelativeDocumentMoniker": "NetCore.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\NetCore.API\\appsettings.json*",
+              "RelativeToolTip": "NetCore.API\\appsettings.json*",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-16T14:25:35.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User_UploadImageRequestData.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\NetCore.API\\Models\\User_UploadImageRequestData.cs",
+              "RelativeDocumentMoniker": "NetCore.API\\Models\\User_UploadImageRequestData.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\NetCore.API\\Models\\User_UploadImageRequestData.cs",
+              "RelativeToolTip": "NetCore.API\\Models\\User_UploadImageRequestData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T13:40:05.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UploadImageResponseData.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoBan.Media\\Models\\UploadImageResponseData.cs",
+              "RelativeDocumentMoniker": "CSharpCoBan.Media\\Models\\UploadImageResponseData.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoBan.Media\\Models\\UploadImageResponseData.cs",
+              "RelativeToolTip": "CSharpCoBan.Media\\Models\\UploadImageResponseData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T13:28:22.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Security.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoBan.CommonNetCore\\Security.cs",
+              "RelativeDocumentMoniker": "CSharpCoBan.CommonNetCore\\Security.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoBan.CommonNetCore\\Security.cs",
+              "RelativeToolTip": "CSharpCoBan.CommonNetCore\\Security.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T13:41:30.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoBan.Media\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "CSharpCoBan.Media\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoBan.Media\\Properties\\launchSettings.json",
+              "RelativeToolTip": "CSharpCoBan.Media\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-06T13:36:11.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoBan.Media\\appsettings.json",
+              "RelativeDocumentMoniker": "CSharpCoBan.Media\\appsettings.json",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoBan.Media\\appsettings.json",
+              "RelativeToolTip": "CSharpCoBan.Media\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-06T13:34:49.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\NetCore.API\\Program.cs",
+              "RelativeDocumentMoniker": "NetCore.API\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\NetCore.API\\Program.cs",
+              "RelativeToolTip": "NetCore.API\\Program.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAIwIAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T14:02:53.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UploadImageRequestData.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoBan.Media\\Models\\UploadImageRequestData.cs",
+              "RelativeDocumentMoniker": "CSharpCoBan.Media\\Models\\UploadImageRequestData.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoBan.Media\\Models\\UploadImageRequestData.cs",
+              "RelativeToolTip": "CSharpCoBan.Media\\Models\\UploadImageRequestData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T13:28:33.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\NetCore.WebApp\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "NetCore.WebApp\\Controllers\\HomeController.cs",
@@ -228,20 +403,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\NetCore.API\\Program.cs",
-              "RelativeDocumentMoniker": "NetCore.API\\Program.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\NetCore.API\\Program.cs",
-              "RelativeToolTip": "NetCore.API\\Program.cs",
-              "ViewState": "AgIAAGQAAAAAAAAAAAAcwHcAAAAkAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "Account_UploadImageRequestData.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoban.DataAccess.Netcore\\DataObject\\Account_UploadImageRequestData.cs",
+              "RelativeDocumentMoniker": "CSharpCoban.DataAccess.Netcore\\DataObject\\Account_UploadImageRequestData.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoban.DataAccess.Netcore\\DataObject\\Account_UploadImageRequestData.cs",
+              "RelativeToolTip": "CSharpCoban.DataAccess.Netcore\\DataObject\\Account_UploadImageRequestData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T14:02:53.054Z",
+              "WhenOpened": "2025-06-05T13:52:38.88Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 14,
               "Title": "CSharpCoBanAuthorizeAttribute.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\NetCore.API\\Filter\\CSharpCoBanAuthorizeAttribute.cs",
               "RelativeDocumentMoniker": "NetCore.API\\Filter\\CSharpCoBanAuthorizeAttribute.cs",
@@ -249,24 +424,12 @@
               "RelativeToolTip": "NetCore.API\\Filter\\CSharpCoBanAuthorizeAttribute.cs",
               "ViewState": "AgIAAFIAAAAAAAAAAAD4v2MAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T13:45:34.226Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\NetCore.API\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "NetCore.API\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\NetCore.API\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "NetCore.API\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAO8AAAAAAAAAAAAUwAgBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T14:13:38.751Z",
+              "WhenOpened": "2025-05-15T13:45:34.226Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 16,
               "Title": "AccountLogin_RequestData.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoban.DataAccess.Netcore\\DataObject\\AccountLogin_RequestData.cs",
               "RelativeDocumentMoniker": "CSharpCoban.DataAccess.Netcore\\DataObject\\AccountLogin_RequestData.cs",
@@ -274,11 +437,12 @@
               "RelativeToolTip": "CSharpCoban.DataAccess.Netcore\\DataObject\\AccountLogin_RequestData.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAnwBEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T14:02:15.114Z"
+              "WhenOpened": "2025-05-29T14:02:15.114Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 15,
               "Title": "UserManagerSession.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoban.DataAccess.Netcore\\DataObject\\UserManagerSession.cs",
               "RelativeDocumentMoniker": "CSharpCoban.DataAccess.Netcore\\DataObject\\UserManagerSession.cs",
@@ -286,11 +450,12 @@
               "RelativeToolTip": "CSharpCoban.DataAccess.Netcore\\DataObject\\UserManagerSession.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T14:08:02.298Z"
+              "WhenOpened": "2025-05-29T14:08:02.298Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 21,
               "Title": "FunctionRepository.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoban.DataAccess.Netcore\\Repository\\FunctionRepository.cs",
               "RelativeDocumentMoniker": "CSharpCoban.DataAccess.Netcore\\Repository\\FunctionRepository.cs",
@@ -298,11 +463,12 @@
               "RelativeToolTip": "CSharpCoban.DataAccess.Netcore\\Repository\\FunctionRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T13:55:58.457Z"
+              "WhenOpened": "2025-05-15T13:55:58.457Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 17,
               "Title": "User_Sessions.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoban.DataAccess.Netcore\\DataObject\\User_Sessions.cs",
               "RelativeDocumentMoniker": "CSharpCoban.DataAccess.Netcore\\DataObject\\User_Sessions.cs",
@@ -310,23 +476,12 @@
               "RelativeToolTip": "CSharpCoban.DataAccess.Netcore\\DataObject\\User_Sessions.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T13:45:02.979Z"
+              "WhenOpened": "2025-05-29T13:45:02.979Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\NetCore.API\\appsettings.json",
-              "RelativeDocumentMoniker": "NetCore.API\\appsettings.json",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\NetCore.API\\appsettings.json",
-              "RelativeToolTip": "NetCore.API\\appsettings.json",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAqwA8AAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-16T14:25:35.321Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 18,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\NetCore.WebApp\\appsettings.json",
               "RelativeDocumentMoniker": "NetCore.WebApp\\appsettings.json",
@@ -334,23 +489,12 @@
               "RelativeToolTip": "NetCore.WebApp\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-16T13:57:02.134Z"
+              "WhenOpened": "2025-05-16T13:57:02.134Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Security.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoBan.CommonNetCore\\Security.cs",
-              "RelativeDocumentMoniker": "CSharpCoBan.CommonNetCore\\Security.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoBan.CommonNetCore\\Security.cs",
-              "RelativeToolTip": "CSharpCoBan.CommonNetCore\\Security.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAwwDEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T13:41:30.835Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 19,
               "Title": "CSharpCoBanDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoban.DataAccess.Netcore\\EfCore\\CSharpCoBanDbContext.cs",
               "RelativeDocumentMoniker": "CSharpCoban.DataAccess.Netcore\\EfCore\\CSharpCoBanDbContext.cs",
@@ -358,11 +502,12 @@
               "RelativeToolTip": "CSharpCoban.DataAccess.Netcore\\EfCore\\CSharpCoBanDbContext.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAewBUAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T14:29:29.074Z"
+              "WhenOpened": "2025-04-16T14:29:29.074Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 20,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\NetCore.API\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "NetCore.API\\WeatherForecast.cs",
@@ -370,11 +515,12 @@
               "RelativeToolTip": "NetCore.API\\WeatherForecast.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T14:01:15.057Z"
+              "WhenOpened": "2025-05-15T14:01:15.057Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 22,
               "Title": "PermissionRepository.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoban.DataAccess.Netcore\\Repository\\PermissionRepository.cs",
               "RelativeDocumentMoniker": "CSharpCoban.DataAccess.Netcore\\Repository\\PermissionRepository.cs",
@@ -382,11 +528,12 @@
               "RelativeToolTip": "CSharpCoban.DataAccess.Netcore\\Repository\\PermissionRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T14:00:07.417Z"
+              "WhenOpened": "2025-05-15T14:00:07.417Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 23,
               "Title": "IPermissionRepository.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoban.DataAccess.Netcore\\IRepository\\IPermissionRepository.cs",
               "RelativeDocumentMoniker": "CSharpCoban.DataAccess.Netcore\\IRepository\\IPermissionRepository.cs",
@@ -394,11 +541,12 @@
               "RelativeToolTip": "CSharpCoban.DataAccess.Netcore\\IRepository\\IPermissionRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T13:58:49.683Z"
+              "WhenOpened": "2025-05-15T13:58:49.683Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 24,
               "Title": "IFunctionRepository.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoban.DataAccess.Netcore\\IRepository\\IFunctionRepository.cs",
               "RelativeDocumentMoniker": "CSharpCoban.DataAccess.Netcore\\IRepository\\IFunctionRepository.cs",
@@ -406,11 +554,12 @@
               "RelativeToolTip": "CSharpCoban.DataAccess.Netcore\\IRepository\\IFunctionRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T13:55:17.747Z"
+              "WhenOpened": "2025-05-15T13:55:17.747Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 25,
               "Title": "Permission.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoban.DataAccess.Netcore\\DataObject\\Permission.cs",
               "RelativeDocumentMoniker": "CSharpCoban.DataAccess.Netcore\\DataObject\\Permission.cs",
@@ -418,11 +567,12 @@
               "RelativeToolTip": "CSharpCoban.DataAccess.Netcore\\DataObject\\Permission.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T13:53:23.086Z"
+              "WhenOpened": "2025-05-15T13:53:23.086Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 26,
               "Title": "Function.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoban.DataAccess.Netcore\\DataObject\\Function.cs",
               "RelativeDocumentMoniker": "CSharpCoban.DataAccess.Netcore\\DataObject\\Function.cs",
@@ -430,11 +580,12 @@
               "RelativeToolTip": "CSharpCoban.DataAccess.Netcore\\DataObject\\Function.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T13:52:16.342Z"
+              "WhenOpened": "2025-05-15T13:52:16.342Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 27,
               "Title": "UserModel.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoban.DataAccess.Netcore\\DataObject\\UserModel.cs",
               "RelativeDocumentMoniker": "CSharpCoban.DataAccess.Netcore\\DataObject\\UserModel.cs",
@@ -442,11 +593,12 @@
               "RelativeToolTip": "CSharpCoban.DataAccess.Netcore\\DataObject\\UserModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T14:08:36.87Z"
+              "WhenOpened": "2025-05-09T14:08:36.87Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 30,
               "Title": "AccountDTO.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoBan.DataAccess\\DO\\AccountDTO.cs",
               "RelativeDocumentMoniker": "CSharpCoBan.DataAccess\\DO\\AccountDTO.cs",
@@ -454,11 +606,12 @@
               "RelativeToolTip": "CSharpCoBan.DataAccess\\DO\\AccountDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T14:07:44.504Z"
+              "WhenOpened": "2025-05-09T14:07:44.504Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 29,
               "Title": "UserModel.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoBan.DataAccess\\DO\\UserModel.cs",
               "RelativeDocumentMoniker": "CSharpCoBan.DataAccess\\DO\\UserModel.cs",
@@ -466,11 +619,12 @@
               "RelativeToolTip": "CSharpCoBan.DataAccess\\DO\\UserModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T14:07:41.805Z"
+              "WhenOpened": "2025-05-09T14:07:41.805Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 32,
               "Title": "AccountRepository.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoBan.DataAccess\\Repository\\AccountRepository.cs",
               "RelativeDocumentMoniker": "CSharpCoBan.DataAccess\\Repository\\AccountRepository.cs",
@@ -478,11 +632,12 @@
               "RelativeToolTip": "CSharpCoBan.DataAccess\\Repository\\AccountRepository.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAAA8AAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T14:03:49.25Z"
+              "WhenOpened": "2025-04-11T14:03:49.25Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 34,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoBan.CommonNetCore\\Class1.cs",
               "RelativeDocumentMoniker": "CSharpCoBan.CommonNetCore\\Class1.cs",
@@ -490,11 +645,12 @@
               "RelativeToolTip": "CSharpCoBan.CommonNetCore\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T13:40:11.23Z"
+              "WhenOpened": "2025-05-09T13:40:11.23Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 36,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoBan.DataAccess\\Repository\\UserRepository.cs",
               "RelativeDocumentMoniker": "CSharpCoBan.DataAccess\\Repository\\UserRepository.cs",
@@ -502,23 +658,25 @@
               "RelativeToolTip": "CSharpCoBan.DataAccess\\Repository\\UserRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T14:03:57.026Z"
+              "WhenOpened": "2025-04-11T14:03:57.026Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 28,
               "Title": "Acccount.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoban.DataAccess.Netcore\\DataObject\\Acccount.cs",
               "RelativeDocumentMoniker": "CSharpCoban.DataAccess.Netcore\\DataObject\\Acccount.cs",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoban.DataAccess.Netcore\\DataObject\\Acccount.cs",
               "RelativeToolTip": "CSharpCoban.DataAccess.Netcore\\DataObject\\Acccount.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAIBJwBEAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBZwBEAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T14:07:32.386Z"
+              "WhenOpened": "2025-04-11T14:07:32.386Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 31,
               "Title": "AccountRepository.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoban.DataAccess.Netcore\\Repository\\AccountRepository.cs",
               "RelativeDocumentMoniker": "CSharpCoban.DataAccess.Netcore\\Repository\\AccountRepository.cs",
@@ -526,11 +684,12 @@
               "RelativeToolTip": "CSharpCoban.DataAccess.Netcore\\Repository\\AccountRepository.cs",
               "ViewState": "AgIAAEEAAAAAAAAAAAAwwE4AAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T14:09:45.724Z"
+              "WhenOpened": "2025-04-11T14:09:45.724Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 35,
               "Title": "CSharpCoban.DataAccess.Netcore.csproj",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoban.DataAccess.Netcore\\CSharpCoban.DataAccess.Netcore.csproj",
               "RelativeDocumentMoniker": "CSharpCoban.DataAccess.Netcore\\CSharpCoban.DataAccess.Netcore.csproj",
@@ -538,11 +697,12 @@
               "RelativeToolTip": "CSharpCoban.DataAccess.Netcore\\CSharpCoban.DataAccess.Netcore.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-11T14:07:11.487Z"
+              "WhenOpened": "2025-04-11T14:07:11.487Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 33,
               "Title": "ClassA.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoBan.DataAccess\\Class\\ClassA.cs",
               "RelativeDocumentMoniker": "CSharpCoBan.DataAccess\\Class\\ClassA.cs",
@@ -550,11 +710,12 @@
               "RelativeToolTip": "CSharpCoBan.DataAccess\\Class\\ClassA.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAA1wBEAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T13:37:40.939Z"
+              "WhenOpened": "2025-04-11T13:37:40.939Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 37,
               "Title": "IAccountRepository.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoban.DataAccess.Netcore\\IRepository\\IAccountRepository.cs",
               "RelativeDocumentMoniker": "CSharpCoban.DataAccess.Netcore\\IRepository\\IAccountRepository.cs",
@@ -562,11 +723,12 @@
               "RelativeToolTip": "CSharpCoban.DataAccess.Netcore\\IRepository\\IAccountRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T14:06:36.258Z"
+              "WhenOpened": "2025-04-11T14:06:36.258Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 38,
               "Title": "UnitOfWork.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoban.DataAccess.Netcore\\UnitOfWork\\UnitOfWork.cs",
               "RelativeDocumentMoniker": "CSharpCoban.DataAccess.Netcore\\UnitOfWork\\UnitOfWork.cs",
@@ -574,11 +736,12 @@
               "RelativeToolTip": "CSharpCoban.DataAccess.Netcore\\UnitOfWork\\UnitOfWork.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAcwBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T13:32:08.365Z"
+              "WhenOpened": "2025-04-18T13:32:08.365Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 39,
               "Title": "IUnitOfWork.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoban.DataAccess.Netcore\\UnitOfWork\\IUnitOfWork.cs",
               "RelativeDocumentMoniker": "CSharpCoban.DataAccess.Netcore\\UnitOfWork\\IUnitOfWork.cs",
@@ -586,11 +749,12 @@
               "RelativeToolTip": "CSharpCoban.DataAccess.Netcore\\UnitOfWork\\IUnitOfWork.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAswBUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T13:31:10.265Z"
+              "WhenOpened": "2025-04-18T13:31:10.265Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 41,
               "Title": "GenericRepositoy.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoban.DataAccess.Netcore\\GenericRepositoy\\GenericRepositoy.cs",
               "RelativeDocumentMoniker": "CSharpCoban.DataAccess.Netcore\\GenericRepositoy\\GenericRepositoy.cs",
@@ -598,11 +762,12 @@
               "RelativeToolTip": "CSharpCoban.DataAccess.Netcore\\GenericRepositoy\\GenericRepositoy.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T13:50:14.712Z"
+              "WhenOpened": "2025-04-18T13:50:14.712Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 40,
               "Title": "AccountGenericRepository.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoban.DataAccess.Netcore\\GenericRepositoy\\AccountGenericRepository.cs",
               "RelativeDocumentMoniker": "CSharpCoban.DataAccess.Netcore\\GenericRepositoy\\AccountGenericRepository.cs",
@@ -610,11 +775,12 @@
               "RelativeToolTip": "CSharpCoban.DataAccess.Netcore\\GenericRepositoy\\AccountGenericRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAIBZwAwAAABhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T13:53:32.346Z"
+              "WhenOpened": "2025-04-18T13:53:32.346Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 42,
               "Title": "IAccountGenericRepository.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoban.DataAccess.Netcore\\IGenericRepositoy\\IAccountGenericRepository.cs",
               "RelativeDocumentMoniker": "CSharpCoban.DataAccess.Netcore\\IGenericRepositoy\\IAccountGenericRepository.cs",
@@ -622,11 +788,12 @@
               "RelativeToolTip": "CSharpCoban.DataAccess.Netcore\\IGenericRepositoy\\IAccountGenericRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T13:58:05.804Z"
+              "WhenOpened": "2025-04-18T13:58:05.804Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 43,
               "Title": "IGenericRepository.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoban.DataAccess.Netcore\\IGenericRepositoy\\IGenericRepository.cs",
               "RelativeDocumentMoniker": "CSharpCoban.DataAccess.Netcore\\IGenericRepositoy\\IGenericRepository.cs",
@@ -634,11 +801,12 @@
               "RelativeToolTip": "CSharpCoban.DataAccess.Netcore\\IGenericRepositoy\\IGenericRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T13:49:14.346Z"
+              "WhenOpened": "2025-04-18T13:49:14.346Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 44,
               "Title": "AccountUpdate_RequestData.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoban.DataAccess.Netcore\\DataObject\\AccountUpdate_RequestData.cs",
               "RelativeDocumentMoniker": "CSharpCoban.DataAccess.Netcore\\DataObject\\AccountUpdate_RequestData.cs",
@@ -646,11 +814,12 @@
               "RelativeToolTip": "CSharpCoban.DataAccess.Netcore\\DataObject\\AccountUpdate_RequestData.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T14:46:59.037Z"
+              "WhenOpened": "2025-04-16T14:46:59.037Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 45,
               "Title": "AccountDelete_RequestData.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoban.DataAccess.Netcore\\DataObject\\AccountDelete_RequestData.cs",
               "RelativeDocumentMoniker": "CSharpCoban.DataAccess.Netcore\\DataObject\\AccountDelete_RequestData.cs",
@@ -658,11 +827,12 @@
               "RelativeToolTip": "CSharpCoban.DataAccess.Netcore\\DataObject\\AccountDelete_RequestData.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T14:40:03.018Z"
+              "WhenOpened": "2025-04-16T14:40:03.018Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 46,
               "Title": "IEmployeer.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoBan.DataAccess\\Interface\\IEmployeer.cs",
               "RelativeDocumentMoniker": "CSharpCoBan.DataAccess\\Interface\\IEmployeer.cs",
@@ -670,11 +840,12 @@
               "RelativeToolTip": "CSharpCoBan.DataAccess\\Interface\\IEmployeer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T14:03:47.74Z"
+              "WhenOpened": "2025-04-11T14:03:47.74Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 48,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\ConsoleAppDemo\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleAppDemo\\Program.cs",
@@ -682,11 +853,12 @@
               "RelativeToolTip": "ConsoleAppDemo\\Program.cs",
               "ViewState": "AgIAADcBAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T14:03:09.337Z"
+              "WhenOpened": "2025-04-11T14:03:09.337Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 47,
               "Title": "EmployeerBussiness.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoBan.DataAccess\\Interface\\EmployeerBussiness.cs",
               "RelativeDocumentMoniker": "CSharpCoBan.DataAccess\\Interface\\EmployeerBussiness.cs",
@@ -694,11 +866,12 @@
               "RelativeToolTip": "CSharpCoBan.DataAccess\\Interface\\EmployeerBussiness.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T14:03:04.69Z"
+              "WhenOpened": "2025-04-11T14:03:04.69Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 50,
               "Title": "IClassB.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoBan.DataAccess\\Interface\\IClassB.cs",
               "RelativeDocumentMoniker": "CSharpCoBan.DataAccess\\Interface\\IClassB.cs",
@@ -706,11 +879,12 @@
               "RelativeToolTip": "CSharpCoBan.DataAccess\\Interface\\IClassB.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T13:41:42.861Z"
+              "WhenOpened": "2025-04-11T13:41:42.861Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 49,
               "Title": "ClassB.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoBan.DataAccess\\Class\\ClassB.cs",
               "RelativeDocumentMoniker": "CSharpCoBan.DataAccess\\Class\\ClassB.cs",
@@ -718,11 +892,12 @@
               "RelativeToolTip": "CSharpCoBan.DataAccess\\Class\\ClassB.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAqwBAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T13:37:56.619Z"
+              "WhenOpened": "2025-04-11T13:37:56.619Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 51,
               "Title": "MyMiddlewareExtensions.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\NetCore.API\\MiddleWare\\MyMiddlewareExtensions.cs",
               "RelativeDocumentMoniker": "NetCore.API\\MiddleWare\\MyMiddlewareExtensions.cs",
@@ -730,11 +905,12 @@
               "RelativeToolTip": "NetCore.API\\MiddleWare\\MyMiddlewareExtensions.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T13:50:28.664Z"
+              "WhenOpened": "2025-04-02T13:50:28.664Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 52,
               "Title": "MyCustomMiddleware.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\NetCore.API\\MiddleWare\\MyCustomMiddleware.cs",
               "RelativeDocumentMoniker": "NetCore.API\\MiddleWare\\MyCustomMiddleware.cs",
@@ -742,7 +918,8 @@
               "RelativeToolTip": "NetCore.API\\MiddleWare\\MyCustomMiddleware.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T13:40:10.076Z"
+              "WhenOpened": "2025-04-02T13:40:10.076Z",
+              "EditorCaption": ""
             }
           ]
         }

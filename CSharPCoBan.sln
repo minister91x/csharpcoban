@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpCoban.DataAccess.Netc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpCoBan.CommonNetCore", "CSharpCoBan.CommonNetCore\CSharpCoBan.CommonNetCore.csproj", "{83458E44-71B1-46CC-9AA6-7A3ACF022351}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpCoBan.Media", "CSharpCoBan.Media\CSharpCoBan.Media.csproj", "{60501D20-23AD-40BA-84E7-A00D1A49D87F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{83458E44-71B1-46CC-9AA6-7A3ACF022351}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83458E44-71B1-46CC-9AA6-7A3ACF022351}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83458E44-71B1-46CC-9AA6-7A3ACF022351}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60501D20-23AD-40BA-84E7-A00D1A49D87F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60501D20-23AD-40BA-84E7-A00D1A49D87F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60501D20-23AD-40BA-84E7-A00D1A49D87F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60501D20-23AD-40BA-84E7-A00D1A49D87F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

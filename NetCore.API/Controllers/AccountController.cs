@@ -1,14 +1,18 @@
 ﻿using System.IdentityModel.Tokens.Jwt;
+using System.Runtime.InteropServices;
 using System.Security.Claims;
 using System.Text;
 using CSharpCoban.DataAccess.Netcore.DataObject;
 using CSharpCoban.DataAccess.Netcore.IRepository;
 using CSharpCoban.DataAccess.Netcore.UnitOfWork;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Caching.Distributed;
 using Microsoft.IdentityModel.Tokens;
 using NetCore.API.Filter;
+using NetCore.API.Helper;
+using NetCore.API.Models;
 using Newtonsoft.Json;
 using StackExchange.Redis;
 
@@ -297,15 +301,43 @@ namespace NetCore.API.Controllers
                     return Ok(returnData);
                 }
 
-                requestData.Base64ImageString = requestData.Base64ImageString.Substring(requestData.Base64ImageString.LastIndexOf(',') + 1);
-                byte[] imageBytes = Convert.FromBase64String(requestData.Base64ImageString);
-                MemoryStream ms = new MemoryStream(imageBytes, 0, imageBytes.Length);
-                ms.Write(imageBytes, 0, imageBytes.Length);
-                System.Drawing.Image image = System.Drawing.Image.FromStream(ms, true);
-                image.Save(imgPath, System.Drawing.Imaging.ImageFormat.Png);
+               // requestData.Base64ImageString = requestData.Base64ImageString.Substring(requestData.Base64ImageString.LastIndexOf(',') + 1);
+
+
+                // xử lý gọi sang media 
+                var api_src = "/api/Media/UploadImage";
+                var base_url = _configuration["MediaURL:BaseUrl"] ?? "http://localhost:5000";
+                
+                var secretKey = _configuration["Sercurity:secretKeyUpload"] ?? "CAjEbwkeGqO@#Gn3Fsd8SRs2dFLMfxTo11ay";
+                var salt = _configuration["Sercurity:secretKeySalt"] ?? "BpssiTUqJKDiZzSbFgvAReHgoFLMfxTo11ay!@#Gn39tn?72";
+                
+                var verifySign = CSharpCoBan.CommonNetCore .Security.EncryptPassword(secretKey, salt);
+
+
+                var uploadReq = new User_UploadImageRequestData
+                {
+                    base64Image = requestData.Base64ImageString,
+                    sign = verifySign
+                };
+
+                var body = JsonConvert.SerializeObject(uploadReq);
+
+
+
+                // ĐẨY JSON SANG MEDIA 
+
+                var responseString = await UploadHelper.UploadImage(base_url, api_src, body);
+
+                // convert json (responseString) sang object User_UploadImageResponseData
+                var uploadRes = JsonConvert.DeserializeObject<User_UploadImageResponseData>(responseString);
+                if (uploadRes == null || uploadRes.ResponseCode < 0)
+                {
+                    throw new Exception("Lưu avatar thất bại. Vui lòng thử lại sau!");
+                }
+
 
                 returnData.ResponseCode = 1;
-                returnData.ResponseMessage = imageName;
+                returnData.ResponseMessage = uploadRes.Description;
 
                 return Ok(returnData);
 

@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "NetCore.API/1.0.0": {
         "dependencies": {
+          "CSharpCoBan.CommonNetCore": "1.0.0",
           "CSharpCoban.DataAccess.Netcore": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.36",
           "Microsoft.EntityFrameworkCore": "6.0.36",

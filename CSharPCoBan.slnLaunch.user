@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "NetCore.API\\NetCore.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "CSharpCoBan.Media\\CSharpCoBan.Media.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

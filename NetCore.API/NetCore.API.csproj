@@ -16,6 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CSharpCoBan.CommonNetCore\CSharpCoBan.CommonNetCore.csproj" />
     <ProjectReference Include="..\CSharpCoban.DataAccess.Netcore\CSharpCoban.DataAccess.Netcore.csproj" />
   </ItemGroup>
 
