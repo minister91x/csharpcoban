@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoBan.Media\\CSharpCoBan.Media.csproj": {}
+    "C:\\Users\\Admin\\Source\\Repos\\csharpcoban\\CSharpCoBan.Media\\CSharpCoBan.Media.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoBan.CommonNetCore\\CSharpCoBan.CommonNetCore.csproj": {
+    "C:\\Users\\Admin\\Source\\Repos\\csharpcoban\\CSharpCoBan.CommonNetCore\\CSharpCoBan.CommonNetCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoBan.CommonNetCore\\CSharpCoBan.CommonNetCore.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Source\\Repos\\csharpcoban\\CSharpCoBan.CommonNetCore\\CSharpCoBan.CommonNetCore.csproj",
         "projectName": "CSharpCoBan.CommonNetCore",
-        "projectPath": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoBan.CommonNetCore\\CSharpCoBan.CommonNetCore.csproj",
+        "projectPath": "C:\\Users\\Admin\\Source\\Repos\\csharpcoban\\CSharpCoBan.CommonNetCore\\CSharpCoBan.CommonNetCore.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoBan.CommonNetCore\\obj\\",
         "projectStyle": "PackageReference",
@@ -69,12 +69,12 @@
         }
       }
     },
-    "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoBan.Media\\CSharpCoBan.Media.csproj": {
+    "C:\\Users\\Admin\\Source\\Repos\\csharpcoban\\CSharpCoBan.Media\\CSharpCoBan.Media.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoBan.Media\\CSharpCoBan.Media.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Source\\Repos\\csharpcoban\\CSharpCoBan.Media\\CSharpCoBan.Media.csproj",
         "projectName": "CSharpCoBan.Media",
-        "projectPath": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoBan.Media\\CSharpCoBan.Media.csproj",
+        "projectPath": "C:\\Users\\Admin\\Source\\Repos\\csharpcoban\\CSharpCoBan.Media\\CSharpCoBan.Media.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoBan.Media\\obj\\",
         "projectStyle": "PackageReference",
@@ -97,8 +97,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoBan.CommonNetCore\\CSharpCoBan.CommonNetCore.csproj": {
-                "projectPath": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoBan.CommonNetCore\\CSharpCoBan.CommonNetCore.csproj"
+              "C:\\Users\\Admin\\Source\\Repos\\csharpcoban\\CSharpCoBan.CommonNetCore\\CSharpCoBan.CommonNetCore.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Source\\Repos\\csharpcoban\\CSharpCoBan.CommonNetCore\\CSharpCoBan.CommonNetCore.csproj"
               }
             }
           }

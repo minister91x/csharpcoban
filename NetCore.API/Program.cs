@@ -1,4 +1,5 @@
 ﻿using System.Text;
+using CSharpCoban.DataAccess.Netcore.Dapper;
 using CSharpCoban.DataAccess.Netcore.DataObject;
 using CSharpCoban.DataAccess.Netcore.EfCore;
 using CSharpCoban.DataAccess.Netcore.GenericRepositoy;
@@ -46,6 +47,9 @@ builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped<IAccountGenericRepository, AccountGenericRepository>();
 builder.Services.AddScoped<IFunctionRepository, FunctionRepository>();
 builder.Services.AddScoped<IPermissionRepository, PermissionRepository>();
+builder.Services.AddScoped<IApplicationDbConnection, ApplicationDbConnection>();
+builder.Services.AddScoped<IAccountRepositoryDapper, AccountRepositoryDapper>();
+
 
 
 

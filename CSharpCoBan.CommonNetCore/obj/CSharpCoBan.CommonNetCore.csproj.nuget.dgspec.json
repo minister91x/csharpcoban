@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoBan.CommonNetCore\\CSharpCoBan.CommonNetCore.csproj": {}
+    "C:\\Users\\Admin\\Source\\Repos\\csharpcoban\\CSharpCoBan.CommonNetCore\\CSharpCoBan.CommonNetCore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoBan.CommonNetCore\\CSharpCoBan.CommonNetCore.csproj": {
+    "C:\\Users\\Admin\\Source\\Repos\\csharpcoban\\CSharpCoBan.CommonNetCore\\CSharpCoBan.CommonNetCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoBan.CommonNetCore\\CSharpCoBan.CommonNetCore.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Source\\Repos\\csharpcoban\\CSharpCoBan.CommonNetCore\\CSharpCoBan.CommonNetCore.csproj",
         "projectName": "CSharpCoBan.CommonNetCore",
-        "projectPath": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoBan.CommonNetCore\\CSharpCoBan.CommonNetCore.csproj",
+        "projectPath": "C:\\Users\\Admin\\Source\\Repos\\csharpcoban\\CSharpCoBan.CommonNetCore\\CSharpCoBan.CommonNetCore.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\CSharpCoBan.CommonNetCore\\obj\\",
         "projectStyle": "PackageReference",

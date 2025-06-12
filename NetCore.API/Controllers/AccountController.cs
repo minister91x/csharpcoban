@@ -33,12 +33,14 @@ namespace NetCore.API.Controllers
 
         private readonly IDistributedCache _cache;
 
-
-        public AccountController(IUnitOfWork unitOfWork, IConfiguration configuration, IDistributedCache cache)
+        private readonly IAccountRepositoryDapper _accountRepositoryDapper;
+        public AccountController(IUnitOfWork unitOfWork, IConfiguration configuration,
+            IDistributedCache cache, IAccountRepositoryDapper accountRepositoryDapper)
         {
             _unitOfWork = unitOfWork;
             _configuration = configuration;
             _cache = cache;
+            _accountRepositoryDapper = accountRepositoryDapper;
         }
         [HttpPost("Account_Login")]
         public async Task<IActionResult> Account_Login(AccountLogin_RequestData requestData)
@@ -160,30 +162,36 @@ namespace NetCore.API.Controllers
                 //Lần đầu thì thì vào database để lấy dữ liệu
 
                 // kiểm tra trong caching 
-                var cacheKey = "GetAll_KeyCaching";
-                var cacheData = await _cache.GetStringAsync(cacheKey);
+                //var cacheKey = "GetAll_KeyCaching";
+                //var cacheData = await _cache.GetStringAsync(cacheKey);
 
-                if (cacheData != null)
+                //if (cacheData != null)
+                //{
+                //    // nếu trong caching có dữ liệu thì lấy luôn
+                //    result = JsonConvert.DeserializeObject<List<Acccount>>(cacheData);
+                //    return Ok(result);
+                //}
+
+                //// nếu trong caceh không có thì vào db để lấy dữ liệu
+                //result = await _unitOfWork._accountGenericRepository.GetAll();
+
+                //// set dữ liệu vào cache
+                //var options = new DistributedCacheEntryOptions()
+                //    .SetSlidingExpiration(TimeSpan.FromMinutes(1))
+                //    .SetAbsoluteExpiration(DateTime.Now.AddMinutes(1));
+
+                //await _cache.SetStringAsync(cacheKey, JsonConvert.SerializeObject(result), options);
+
+                //if (result == null)
+                //{
+                //    return NotFound();
+                //}
+
+                result = await _accountRepositoryDapper.Acccounts_GetAll(new Acccounts_GetAllRequestDataa
                 {
-                    // nếu trong caching có dữ liệu thì lấy luôn
-                    result = JsonConvert.DeserializeObject<List<Acccount>>(cacheData);
-                    return Ok(result);
-                }
+                    AccountId = 0
+                });
 
-                // nếu trong caceh không có thì vào db để lấy dữ liệu
-                result = await _unitOfWork._accountGenericRepository.GetAll();
-
-                // set dữ liệu vào cache
-                var options = new DistributedCacheEntryOptions()
-                    .SetSlidingExpiration(TimeSpan.FromMinutes(1))
-                    .SetAbsoluteExpiration(DateTime.Now.AddMinutes(1));
-
-                await _cache.SetStringAsync(cacheKey, JsonConvert.SerializeObject(result), options);
-
-                if (result == null)
-                {
-                    return NotFound();
-                }
                 return Ok(result);
             }
             catch (Exception)
@@ -301,17 +309,17 @@ namespace NetCore.API.Controllers
                     return Ok(returnData);
                 }
 
-               // requestData.Base64ImageString = requestData.Base64ImageString.Substring(requestData.Base64ImageString.LastIndexOf(',') + 1);
+                // requestData.Base64ImageString = requestData.Base64ImageString.Substring(requestData.Base64ImageString.LastIndexOf(',') + 1);
 
 
                 // xử lý gọi sang media 
                 var api_src = "/api/Media/UploadImage";
                 var base_url = _configuration["MediaURL:BaseUrl"] ?? "http://localhost:5000";
-                
+
                 var secretKey = _configuration["Sercurity:secretKeyUpload"] ?? "CAjEbwkeGqO@#Gn3Fsd8SRs2dFLMfxTo11ay";
                 var salt = _configuration["Sercurity:secretKeySalt"] ?? "BpssiTUqJKDiZzSbFgvAReHgoFLMfxTo11ay!@#Gn39tn?72";
-                
-                var verifySign = CSharpCoBan.CommonNetCore .Security.EncryptPassword(secretKey, salt);
+
+                var verifySign = CSharpCoBan.CommonNetCore.Security.EncryptPassword(secretKey, salt);
 
 
                 var uploadReq = new User_UploadImageRequestData

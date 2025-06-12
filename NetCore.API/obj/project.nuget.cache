@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "NFU/uBIlBFE=",
+  "dgSpecHash": "oEYSdydLYKA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\NetCore.API\\NetCore.API.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\Source\\Repos\\csharpcoban\\NetCore.API\\NetCore.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\dapper\\2.1.66\\dapper.2.1.66.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.36\\microsoft.aspnetcore.authentication.jwtbearer.6.0.36.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\9.0.1\\microsoft.bcl.asyncinterfaces.9.0.1.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.7\\microsoft.data.sqlclient.2.1.7.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
@@ -48,6 +50,7 @@
     "C:\\Users\\Admin\\.nuget\\packages\\system.drawing.common\\4.7.3\\system.drawing.common.4.7.3.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.36.0\\system.identitymodel.tokens.jwt.6.36.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\system.reflection.emit.lightweight\\4.7.0\\system.reflection.emit.lightweight.4.7.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\system.runtime.caching\\4.7.0\\system.runtime.caching.4.7.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",

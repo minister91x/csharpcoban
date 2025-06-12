@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\source\\repos\\csharpcoban\\NetCore.WebApp\\NetCore.WebApp.csproj": {}
+    "C:\\Users\\Admin\\Source\\Repos\\csharpcoban\\NetCore.WebApp\\NetCore.WebApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\source\\repos\\csharpcoban\\NetCore.WebApp\\NetCore.WebApp.csproj": {
+    "C:\\Users\\Admin\\Source\\Repos\\csharpcoban\\NetCore.WebApp\\NetCore.WebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\NetCore.WebApp\\NetCore.WebApp.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Source\\Repos\\csharpcoban\\NetCore.WebApp\\NetCore.WebApp.csproj",
         "projectName": "NetCore.WebApp",
-        "projectPath": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\NetCore.WebApp\\NetCore.WebApp.csproj",
+        "projectPath": "C:\\Users\\Admin\\Source\\Repos\\csharpcoban\\NetCore.WebApp\\NetCore.WebApp.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Admin\\source\\repos\\csharpcoban\\NetCore.WebApp\\obj\\",
         "projectStyle": "PackageReference",
