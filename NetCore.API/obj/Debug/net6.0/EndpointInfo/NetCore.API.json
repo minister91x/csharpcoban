@@ -41,6 +41,25 @@
         "tags": [
           "Account"
         ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Acccounts_GetAllRequestDataa"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Acccounts_GetAllRequestDataa"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Acccounts_GetAllRequestDataa"
+              }
+            }
+          }
+        },
         "responses": {
           "200": {
             "description": "Success"
@@ -214,6 +233,16 @@
   },
   "components": {
     "schemas": {
+      "Acccounts_GetAllRequestDataa": {
+        "type": "object",
+        "properties": {
+          "accountId": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
       "AccountDelete_RequestData": {
         "type": "object",
         "properties": {

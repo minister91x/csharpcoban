@@ -13,10 +13,16 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.FileProviders;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using NetCore.API.LoggerService;
 using NetCore.API.MiddleWare;
+using NLog;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Logging.ClearProviders();
+builder.Logging.AddConsole();
+
 var configuration = builder.Configuration;
+LogManager.LoadConfiguration(string.Concat(Directory.GetCurrentDirectory(), "/NLog.config"));
 
 // Add services to the container.
 builder.Services.AddDbContext<CSharpCoBanDbContext>(options =>
@@ -49,6 +55,7 @@ builder.Services.AddScoped<IFunctionRepository, FunctionRepository>();
 builder.Services.AddScoped<IPermissionRepository, PermissionRepository>();
 builder.Services.AddScoped<IApplicationDbConnection, ApplicationDbConnection>();
 builder.Services.AddScoped<IAccountRepositoryDapper, AccountRepositoryDapper>();
+builder.Services.AddSingleton<ILoggerManager, LoggerManager>();
 
 
 

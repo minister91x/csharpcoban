@@ -1,0 +1,2 @@
+2025-06-13 21:03:31.3861 INFO 13/06/2025 09:06:31 |Account_GetAll RequestData:{"AccountId":0}
+2025-06-13 21:03:32.4553 INFO 13/06/2025 09:06:32 |Account_GetAll Response:[{"AccountID":3,"UserName":"admin","Password":"5994471abb01112afcc18159f6cc74b4f511b99806da59b3caf5a9c173cacfc5","Address":"Hà Nội","FullName":"Nguyến User","IsAdmin":1},{"AccountID":4,"UserName":"admin4","Password":"5994471abb01112afcc18159f6cc74b4f511b99806da59b3caf5a9c173cacfc5","Address":"Đà Nẵng","FullName":"Nguyễn Admin","IsAdmin":1}]

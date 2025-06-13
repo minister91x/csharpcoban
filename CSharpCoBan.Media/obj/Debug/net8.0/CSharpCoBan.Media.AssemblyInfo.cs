@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CSharpCoBan.Media")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5551fec681e01b3e49754614197218523d657419")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+88f3edb9138a61b366390a0c6dcc0df7c68d8dc7")]
 [assembly: System.Reflection.AssemblyProductAttribute("CSharpCoBan.Media")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CSharpCoBan.Media")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

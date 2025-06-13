@@ -12,6 +12,7 @@ using Microsoft.Extensions.Caching.Distributed;
 using Microsoft.IdentityModel.Tokens;
 using NetCore.API.Filter;
 using NetCore.API.Helper;
+using NetCore.API.LoggerService;
 using NetCore.API.Models;
 using Newtonsoft.Json;
 using StackExchange.Redis;
@@ -34,13 +35,21 @@ namespace NetCore.API.Controllers
         private readonly IDistributedCache _cache;
 
         private readonly IAccountRepositoryDapper _accountRepositoryDapper;
+
+        private readonly ILogger<AccountController> _logger;
+        private readonly ILoggerManager _loggerManager;
+
         public AccountController(IUnitOfWork unitOfWork, IConfiguration configuration,
-            IDistributedCache cache, IAccountRepositoryDapper accountRepositoryDapper)
+            IDistributedCache cache, IAccountRepositoryDapper accountRepositoryDapper
+            , ILogger<AccountController> logger, ILoggerManager loggerManager)
         {
             _unitOfWork = unitOfWork;
             _configuration = configuration;
             _cache = cache;
             _accountRepositoryDapper = accountRepositoryDapper;
+            _logger = logger;
+
+            _loggerManager = loggerManager;
         }
         [HttpPost("Account_Login")]
         public async Task<IActionResult> Account_Login(AccountLogin_RequestData requestData)
@@ -153,7 +162,7 @@ namespace NetCore.API.Controllers
 
         [HttpPost("Account_GetAll")]
         // [CSharpCoBanAuthorizeAttribute("Account_GetAll", "ISVIEWS")]
-        public async Task<IActionResult> Account_GetAll()
+        public async Task<IActionResult> Account_GetAll(Acccounts_GetAllRequestDataa requestData)
         {
             var result = new List<Acccount>();
             try
@@ -187,11 +196,11 @@ namespace NetCore.API.Controllers
                 //    return NotFound();
                 //}
 
-                result = await _accountRepositoryDapper.Acccounts_GetAll(new Acccounts_GetAllRequestDataa
-                {
-                    AccountId = 0
-                });
-
+                //_logger.LogInformation(DateTime.Now.ToString("dd/MM/yyyy hh:MM:ss") + " |Account_GetAll RequestData:" + JsonConvert.SerializeObject(requestData));
+                _loggerManager.LogInfo(" |Account_GetAll RequestData:" + JsonConvert.SerializeObject(requestData));
+                result = await _accountRepositoryDapper.Acccounts_GetAll(requestData);
+                _loggerManager.LogInfo(" |Account_GetAll Response:" + JsonConvert.SerializeObject(result));
+                // _logger.LogInformation(DateTime.Now.ToString("dd/MM/yyyy hh:MM:ss") + " Account_GetAll Response:" + JsonConvert.SerializeObject(result));
                 return Ok(result);
             }
             catch (Exception)
